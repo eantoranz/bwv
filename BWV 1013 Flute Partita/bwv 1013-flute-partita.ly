@@ -38,11 +38,23 @@
 
 
 \score {
+    
+    {
+        \clef G
+        \include "3-sarabande.ly"
+    }
+    \header {
+        piece = "III Sarabande"
+    }
+}
+
+
+\score {
     \new Staff \with {midiInstrument = "flute" }
     {
-        \include "2-corrente.ly"
+        \include "3-sarabande.ly"
     }
     \midi {
-        \tempo 4 = 90
+        \tempo 4 = 60
     }
 }
