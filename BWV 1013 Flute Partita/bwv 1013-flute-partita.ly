@@ -24,11 +24,25 @@
     }
 }
 
+
+\score {
+    
+    {
+        \clef G
+        \include "2-corrente.ly"
+    }
+    \header {
+        piece = "II Corrente"
+    }
+}
+
+
 \score {
     \new Staff \with {midiInstrument = "flute" }
     {
-        \include "1-allemande.ly"
+        \include "2-corrente.ly"
     }
     \midi {
+        \tempo 4 = 90
     }
 }
