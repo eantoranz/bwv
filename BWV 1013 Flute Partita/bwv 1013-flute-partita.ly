@@ -36,7 +36,6 @@
     }
 }
 
-
 \score {
     
     {
@@ -48,13 +47,14 @@
     }
 }
 
-
 \score {
-    \new Staff \with {midiInstrument = "flute" }
+    
     {
-        \include "3-sarabande.ly"
+        \clef G
+        \include "4-bourree.ly"
     }
-    \midi {
-        \tempo 4 = 60
+    \header {
+        piece = "IV Bourrée Anglaise"
     }
 }
+
