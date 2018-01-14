@@ -18,10 +18,10 @@
     % 1
     b8 cis d ais b cis d ais
     
-    % 2 (Q;missing a note en 3rd beat)
-    b e, fis fis, r4 r8 b'
+    % 2
+    b e, fis fis, b4 r8 b'
     
-    % 3 (Q:missing articulations)
+    % 3
     b ais r a a gis r g
 
     % 4 2nd system from bach's score starts on 3rd beat
@@ -117,13 +117,13 @@
     % 34
     fis b cis cis, fis4 r8 fis'
     
-    % 35 2nd page 6th system from bach's score starts here (Q: articulations)
+    % 35 2nd page 6th system from bach's score starts here
     fis\prall eis r e e\prall dis r d
     
     % 36
     cis fis ais fis b e, d'32 cis b16 cis e
     
-    % 37 (gis ???.... appaeently so)(Q: Articulations 1 and 3 beat)
+    % 37
     ais, fis' fis b, b a gis a gis eis' eis b a gis fis e
     
     % 38 3rd page from bach's score starts here
@@ -138,10 +138,10 @@
     % 41 3rd page 2nd system from bach's score starts here
     a16( g fis e) fis8 a d,16( c b a) b8 d
     
-    % 42 (Q: Articulations 2 beat.... ais and cis on 4 beat???)
-    g fis g16 fis( e d) cis8 c \tuplet 3/2 8 { b16 a b c b a }
+    % 42
+    g fis g16 fis( e d) cis8 c \tuplet 3/2 8 { b16 ais b cis b ais }
     
-    % 43 (Q: Articulations 1 and 2 beat)
+    % 43
     b fis fis eis eis( e') e( fis) g( b,) b( a) a( g) g( fis)
     
     % 44 3rd page 3rd system from bachs score starts on 3rd beat
@@ -160,7 +160,7 @@
     g fis g16( gis) gis( a) a( g) g( fis) g( fis) fis( e) 
     
     % 49 (Q: first a is ais?.... g on 3 beat?)
-    fis( gis) gis( a) a( b) b( ais) b8 gis e fis
+    fis( gis) gis( ais) ais( b) b( ais) b8 g e fis
     
     % 50 3rd page 5th system from bach's score starts on 3rd beat
     gis16( fis) fis( eis) eis( fis) fis( eis) fis8 d b cis
@@ -168,7 +168,7 @@
     % 51
     fis,16( fis') fis( e) e( d) d( cis) cis( b') b( a) a( gis) gis( fis)
     
-    % 52 (Q: Articulations)
+    % 52
     fis( fis') fis( e) e d d cis cis b b a a gis gis fis
     
     % 53 3rd page 6th syste from bach's score starts on 3rd beat
@@ -177,10 +177,10 @@
     % 54
     cis, eis'16 dis eis8 cis a b cis cis,
     
-    % 55 (Q: a on 3rd beat is ais?)
+    % 55
     fis fis'16 gis fis e d cis b8. a16 b16 cis d b
     
-    % 56 4th page from bach's score starts here (Q: g is gis on 3rd beat)
+    % 56 4th page from bach's score starts here
     e,8 e'16 fis e d cis b a8. g16 a b c a
     
     % 57
@@ -192,8 +192,8 @@
     % 59 4th page 2nd system from bach's score starts on 2nd beat
     fis fis e e dis dis b b
     
-    % 60 (Q: c c or cis cis?)
-    e e d d c c a a
+    % 60
+    e e d d cis cis a a
     
     % 61 4th page 3rd system from bach's score starts on 3rd beat
     d d g g cis, cis fis fis
@@ -246,7 +246,7 @@
     % 77
     fis( e) e( dis) e( d) d( cis) d( c) c( b) c( b) b( a)
     
-    % 78 5th page 3rd system from bach's score starts on 2nd beat (Q: Articulations 4th beat)
+    % 78 5th page 3rd system from bach's score starts on 2nd beat
     b( a) a( gis) a( g) g( fis) g( fis) fis( g) g fis fis eis
     
     % 79
@@ -258,14 +258,15 @@
     % 81
     b e, fis fis, b4 r8 b'
     
-    % 82 5th page 4th system from bach's score starts here (Q: Missing prall, articulations)
-    b\prall ais r a a gis r g
+    % 82 5th page 4th system from bach's score starts here
+    % prall on 3rd beat _looks_ like an oversight on Bach's manuscript (imitation)
+    b\prall ais r a a\prall gis r g
     
     % 83
     fis b, dis b e a16 g fis e fis a
     
-    % 84 (Q: Articulations... ais on 3?)
-    dis, b' b e, e d cis d cis a' a e d cis b ais
+    % 84
+    dis, b' b e, e d cis d cis ais' ais e d cis b ais
     
     % 85 5th page 5th system from bach's score starts on 3rd beat
     b8 cis d ais b cis d ais
@@ -279,10 +280,11 @@
     % 88
     d,16( c b a) b8 d g16( f e d) e8 g
     
-    % 89 5th page 6th system from bach's score starts here (Q: d or e on 4?)
-    c, b c16 e a g fis8 f \tuplet 3/2 8 { e16 dis e fis d dis }
+    % 89 5th page 6th system from bach's score starts here
+    c, b c16 e a g fis8 f \tuplet 3/2 8 { e16 dis e fis e dis }
     
-    % 90 (Q: Articulation on 2)
+    % 90
+    % Bach's manuscript has no articulations on 2nd beat
     e( b') b( ais) ais a a b c( e,) e( d) d( c) c( b)
     
     % 91
@@ -297,19 +299,20 @@
     % 94
     e dis e ees d f g, b
     
-    % 95 6th page 2nd system from bach's score starts here (Q: Articulations on 3)
+    % 95 6th page 2nd system from bach's score starts here
+    % Bach's manuscript doesn't have articulations on 3rd beat
     c b c cis d16 c c b c( b) b( a)
     
-    % 96 (Q: Articulations on 3)
+    % 96
     b( a) a( g) a( e') e( dis) e8 c a b
     
     % 97
     cis16( b') b( ais) ais( cis) cis( ais) b8 g e fis
     
-    % 98 6th page 3rd system from bach's score starts on 3rd beat (Q: Articulation on 3?)
+    % 98 6th page 3rd system from bach's score starts on 3rd beat
     b16 b, b( a) a( g) g( fis) fis( e') e( d) d( cis) cis( b)
     
-    % 99 (Q: Articulations on jumps on 1 and 3?)
+    % 99
     b( b') b( a) a( g) g( fis) fis e' e( d) d( cis) cis( b)
     
     % 100
@@ -333,8 +336,8 @@
     % 106 6th page 6th system from bach's score starts here
     e d cis b a g fis e
     
-    % 107 (Q: cis or c on 1?)
-    d' c b a g fis e d
+    % 107
+    d' cis b a g fis e d
     
     % 108 7th page from bach's score starts on 3rd beat
     cis' b ais gis fis e d cis
@@ -348,7 +351,7 @@
     % 111 7th page 2nd system from bach's score starts on 3rd beat
     g, g g g fis e' d fis
     
-    % 112 (Q: Articulations)
+    % 112
     g e fis fis, g16 g' g fis fis e e fis
     
     % 113
@@ -360,7 +363,7 @@
     % 115 7th page 3rd system from bach's score starts here
     fis( e) e( d) e( d) d( cis) d( cis) cis( b) cis( b) b( ais)
     
-    % 116 (Q: dis on 3?)
+    % 116
     b fis' b cis b a g fis e8. d16 e fis g e
     
     % 117
