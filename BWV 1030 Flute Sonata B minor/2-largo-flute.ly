@@ -42,4 +42,34 @@
     a16 cis, \appoggiatura cis16 d8 \appoggiatura cis16 b32 a b16 a4.
     
     \bar ":..:"
+    
+    % 9 8th page from Bach's manuscript starts here
+    a8. cis16 e8 \appoggiatura { e16 fis } g8 fis r
+    
+    % 10
+    % ais on 3rd beat of 1st beat (piano is playing ais as well)
+    ais,32 g' fis e \appoggiatura e16 cis'16. b32 \appoggiatura g16 ais32( g fis e)
+    d cis d cis b4
+    
+    % 11
+    g'32( a g fis) g( fis eis fis) fis16 d' d32 c b c c b ais b ais16 g'
+    
+    % 12
+    fis32 d cis b d8 cis16.\trill b32 b4 r8
+    
+    % 13
+    % last g has no alteration because it was not written on manuscript so it's "natural"
+    gis16 gis8 gis gis16~ gis32 b a gis a g fis e d cis b a
+    
+    % 14
+    d e fis16~ fis32 g a16~ a32 c b a d b c a g4
+    
+    % 15 3rd system from 8th page from Bach's manuscript starts here
+    e'16 cis8 bes g16~ g e8 d32 cis d cis b a
+    
+    % 16
+    a'8 g16 fis e32 g fis16 \appoggiatura e8 d4.
+    
+    \bar ":|."
+    
 }

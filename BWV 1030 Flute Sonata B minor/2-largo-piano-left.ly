@@ -43,5 +43,35 @@
     >>
     
     \bar ":..:"
+    
+    % 9 8th page from Bach's manuscript starts here
+    a'8 fis cis d4 d'8
+    
+    % 10
+    cis a fis b8. b16 cis d
+    
+    % 11
+    e8 ais, b g e cis
+    
+    % 12
+    d e fis b, b' cis
+    
+    % 13
+    d e d cis8. a16 e' g,
+    
+    % 14
+    fis8 d fis g8. fis16 e d
+    
+    % 15 3rd system from 8th page from Bach's manuscript starts here
+    cis8 e g a, cis e
+    
+    % 16
+    <<
+        { fis8 g a d,8. e16 fis d }
+        \\
+        { fis,8 g a d,4.\fermata }
+    >>
+    
+    \bar ":|."
 
 }

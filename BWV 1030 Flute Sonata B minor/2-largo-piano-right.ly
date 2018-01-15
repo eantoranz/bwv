@@ -81,5 +81,85 @@
     >>
     
     \bar ":.."
+    
+    % 9 8th page from Bach's manuscript starts here
+    <<
+        { cis'8 fis e e16 cis d32 e d cis b a g fis }
+        \\
+        { a8 < cis a > < cis a > \appoggiatura a16 g e fis r d8 }
+        \\
+        { e8 fis g  }
+    >>
+    
+    % 10
+    <<
+        { g'8 fis ais b~ b32 a g b a g fis a }
+        \\
+        { e8 e < fis e > < fis e > d r}
+        \\
+        { ais16 b cis8 cis b8. }
+        \\
+        { e,8 cis fis fis8. }
+    >>
+    
+    % 11
+    <<
+        { g'8. g8 fis16~ fis e8 e e16  }
+        \\
+        { r16 e8. d8 d c < cis ais > }
+        \\
+        { r8 cis b b g < g e > }
+    >>
+    
+    % 12 - 13 1st half (because of the ties between the tied b between 12 and 13
+    % @TODO make it more elegant, please
+    <<
+        { d'8 b ais b32 fis gis ais b cis d fis e d cis b~ b8 }
+        \\
+        { b,8 g8. fis16 fis r r4 b''8 gis e }
+        \\
+        { fis,8 e e d16 r r4 < e' gis >8 < b e > < gis b > }
+    >>
+    
+    % second half of 13
+    <<
+        { e'8 a r }
+        \\
+        { d, cis r }
+        \\
+        { b a r }
+        \\
+        { gis e r }
+    >>
+    
+    % 14
+    <<
+        { a'8 fis d < d c > g r }
+        \\
+        { d d c a b32 cis d cis e d fis e }
+        \\
+        { a,8 a fis fis16 d8 d16 cis b }
+    >>
+    
+    % 15 3rd system from 8th page from Bach's manuscript starts here
+    <<
+        { g''8 e cis e cis a }
+        \\
+        { e' cis g < cis g > g < g e > }
+        \\
+        { a g e < e a, > e cis }
+    >>
+    
+    % 16
+    <<
+        { d'8 d cis d4. }
+        \\
+        { a8 b a a4. }
+        \\
+        { fis8 e < e g > fis4. }
+    >>
+    
+    \bar ":|."
+    
 
 }
