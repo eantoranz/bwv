@@ -48,7 +48,8 @@
     
     % 10
     % ais on 3rd beat of 1st beat (piano is playing ais as well)
-    ais,32 g' fis e \appoggiatura e16 cis'16. b32 \appoggiatura g16 ais32( g fis e)
+    % @TODO Appoggiatura to land on a starts on e or on fis?
+    ais,32 g' fis e \appoggiatura e16 cis'16. b32 \appoggiatura fis16 a32( g fis e)
     d cis d cis b4
     
     % 11

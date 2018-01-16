@@ -63,7 +63,11 @@
     fis8 d fis g8. fis16 e d
     
     % 15 3rd system from 8th page from Bach's manuscript starts here
-    cis8 e g a, cis e
+    <<
+        { a'8 s4 a8 s4 }
+        \\
+        { cis,8 e g a, cis e }
+    >>
     
     % 16
     <<

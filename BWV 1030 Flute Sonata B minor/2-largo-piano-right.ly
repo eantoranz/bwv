@@ -147,7 +147,7 @@
         \\
         { e' cis g < cis g > g < g e > }
         \\
-        { a g e < e a, > e cis }
+        { a g e e e cis }
     >>
     
     % 16
