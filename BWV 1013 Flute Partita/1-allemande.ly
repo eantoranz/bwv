@@ -159,7 +159,7 @@
         c e a c, b a e gis' a a, g e f a' e, g'
         
         % 45
-        d, f' e cis d bis' c, a' gis e d b c e' b, d'
+        d, f' e cis d bes' c, a' gis e d b c e' b, d'
         
         % 46
         a, c' d, b' e, a b gis a e, a c e a, c e
