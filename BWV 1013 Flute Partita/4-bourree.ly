@@ -157,6 +157,7 @@
     g16 f g8 a,16 cis e8
     
     % 48
+    % @TODO G or F?
     f16 e f8 d, d'16 e
     
     % 49

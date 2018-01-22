@@ -56,7 +56,7 @@
    b8 c16 d c d a g f e f d
    
    % 15
-   e8 c16 b g'8 a e8 d16 c
+   e8 d16 c g'8 a e8 d16 c
    
    % 16
    c2.
@@ -85,7 +85,7 @@
    f16 a' g f e8 d cis d
    
    % 24
-   g,8 bes'16 a g8 f16 e cis'8 bes16 cis
+   g,8 bes'16 a g8 f16 e cis'8 b16 cis
    
    % 25
    d8 d,16 e f8 a g16 f e f
@@ -118,7 +118,7 @@
    gis,4. fis8 e4
    
    % 35
-   a8 b c d gis, a
+   a8 b c e gis, a
    
    % 36 5th pentagram from manuscript starts here
    f'4 e\prall d
