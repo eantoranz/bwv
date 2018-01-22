@@ -37,7 +37,7 @@
         a f a c d f a c, b g b d e g b d,
         
         % 8 third pentagram on manuscript
-        c a c d f a c e, d b d fis g b d f,
+        c a c e f a c e, d b d fis g b d f,
         
         % 9
         e g c b c e c g c, g' c b c e c g
