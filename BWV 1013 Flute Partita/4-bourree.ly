@@ -188,7 +188,7 @@
     e,16 f e e' e, f e d'
     
     % 58
-    e, f e c' b g e'8
+    e, f e c' b gis e'8
     
     % 59
     c16 a fis'8 d16 b gis'8
