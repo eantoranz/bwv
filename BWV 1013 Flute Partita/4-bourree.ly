@@ -157,8 +157,11 @@
     g16 f g8 a,16 cis e8
     
     % 48
-    % @TODO G or F?
-    f16 e f8 d, d'16 e
+    % The manuscript has a correction but it's hard to tell if the final intent is a F or a G so we kind of keep the original notation so the interpreter has fun with it
+    \override NoteHead.extra-offset = #'(0 . 0.25) \tweak font-size 3
+    f16
+    \revert NoteHead.extra-offset
+    e f8 d, d'16 e
     
     % 49
     f e f8 g,16 b d8
