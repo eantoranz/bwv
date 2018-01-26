@@ -157,7 +157,7 @@
     b ais b bes a c, d fis
     
     % 48
-    g fis g16( gis) gis( a) a( g) g( fis) g( fis) fis( e) 
+    g fis g16( gis) gis a a( g) g( fis) g( fis) fis( e) 
     
     % 49 (Q: first a is ais?.... g on 3 beat?)
     fis( gis) gis( ais) ais( b) b( ais) b8 g e fis
@@ -208,7 +208,11 @@
     g c d d, g, a b c
     
     % 65
-    d d c c b b g g
+    <<
+        { d' }
+        \\
+        { d, d c c b b g g }
+    >>
     
     % 66
     c c b b a a f f
@@ -259,8 +263,7 @@
     b e, fis fis, b4 r8 b'
     
     % 82 5th page 4th system from bach's score starts here
-    % prall on 3rd beat _looks_ like an oversight on Bach's manuscript (imitation)
-    b\prall ais r a a\prall gis r g
+    b\prall ais r a a gis r g
     
     % 83
     fis b, dis b e a16 g fis e fis a
@@ -285,7 +288,7 @@
     
     % 90
     % Bach's manuscript has no articulations on 2nd beat
-    e( b') b( ais) ais a a b c( e,) e( d) d( c) c( b)
+    e( b') b( ais) ais a a b c( e,) e( d) d c c b
     
     % 91
     b( b') b( a) a( g) g( fis) fis4 r8 ais

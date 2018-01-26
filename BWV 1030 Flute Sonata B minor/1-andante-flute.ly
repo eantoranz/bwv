@@ -40,7 +40,7 @@
     fis fis fis fis fis d'8~ d16 cis b a
     
     % 9
-    gis8( g) fis( f) e( g,) fis16 ais cis e
+    gis8( g) fis( eis) e( g,) fis16 ais cis e
     
     % 10
     d8. e16 e8.\trill d32 e fis4 r8 e
@@ -86,7 +86,7 @@
     d32 cis b16 \appoggiatura b8 cis8~ cis16 b32( cis d cis b ais) b8 b, \tuplet 3/2 8 { r16 b cis d e fis }
     
     % 23
-    g16 b, a fis' g, e' gis, d' d32 cis b16 \appoggiatura b8 cis8~ \tuplet 3/2 8 { cis16 a b cis d e }
+    g16 b, a fis' g, e' gis, d' d32 cis b16 \appoggiatura b16 cis8~ \tuplet 3/2 8 { cis16 a b cis d e }
     
     % 24
     fis16 a, g e' fis, d' a c c32 b ais16 \appoggiatura ais8 b8~ \tuplet 3/2 8 { b16 g a b c d }
@@ -149,7 +149,7 @@
     fis a, gis e'~ e16 d32 cis d16 e e8.\trill d32 e 
     
     % 44 3rd page 3rd system from bachs score starts on 3rd beat
-    fis4 r8 fis eis16 fis d8~ d16 cis b'32 a gis16
+    fis4 r8 fis eis16 gis d8~ d16 cis b'32 a gis16
     
     % 45
     gis( a) r8 r4 r8 d,8~ \tuplet 3/2 8 { d16 cis e } bes8~

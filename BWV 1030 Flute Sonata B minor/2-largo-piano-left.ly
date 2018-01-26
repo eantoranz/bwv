@@ -48,7 +48,7 @@
     a'8 fis cis d4 d'8
     
     % 10
-    cis a fis b8. b16 cis d
+    cis ais fis b8. b16 cis d
     
     % 11
     e8 ais, b g e cis

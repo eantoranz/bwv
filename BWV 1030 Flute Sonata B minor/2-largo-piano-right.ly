@@ -17,14 +17,14 @@
     <<
         { d'8 d d < d b > cis32 e d cis d cis b a }
         \\
-        { < a fis >8 < b fis > < c d, > < g d > < a e > < d, a > }
+        { < a fis >8 < b fis > < c a d, > < g d > < a e > < d, a > }
     >>
     
     % 2
     <<
         { r16 cis'8 cis cis16 d8. cis32 b a g fis e }
         \\
-        { < g d >8 < e cis > < a e > < a fis > r4 }
+        { < g e >8 < e cis > < a e > < a fis > r4 }
     >>
     
     % 3 2nd system from bach's manuscript starts here
@@ -38,7 +38,7 @@
     <<
         { r16 dis8 dis dis16 e8. d32 c? b a g fis  }
         \\
-        { < c' a >8 < b fis > < b fis > < b g > r8 }
+        { < c' a >8 < b fis > < b fis > < b g > }
     >>
     
     % 5
@@ -75,9 +75,9 @@
     <<
         { cis'8 b16 cis d8 d cis16\fermata d e cis }
         \\
-        { a8 a g a4 r8 }
+        { a8 a gis a4 r8 }
         \\
-        { e8 e16 g e8 e4 r8 }
+        { e8 e e e4 r8 }
     >>
     
     \bar ":.."
@@ -86,7 +86,7 @@
     <<
         { cis'8 fis e e16 cis d32 e d cis b a g fis }
         \\
-        { a8 < cis a > < cis a > \appoggiatura a16 g e fis r d8 }
+        { a8 < cis a > < cis a > \appoggiatura a16 g e fis r }
         \\
         { e8 fis g  }
     >>
@@ -116,7 +116,7 @@
     <<
         { d'8 b ais b32 fis gis ais b cis d fis e d cis b~ b8 }
         \\
-        { b,8 g8. fis16 fis r r4 b''8 gis e }
+        { b8 g8. fis16 fis r r4 b'8 gis e }
         \\
         { fis,8 e e d16 r r4 < e' gis >8 < b e > < gis b > }
     >>
@@ -138,7 +138,7 @@
         \\
         { d d c a b32 cis d cis e d fis e }
         \\
-        { a,8 a fis fis16 d8 d16 cis b }
+        { a,8 a < fis a > fis16 d8 d16 cis b }
     >>
     
     % 15 3rd system from 8th page from Bach's manuscript starts here
