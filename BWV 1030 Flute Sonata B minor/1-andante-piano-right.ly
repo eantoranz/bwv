@@ -37,8 +37,7 @@
     d16 b' b d, d b' b d, d cis cis b cis4~
     
     % 8 3rd system from bach's score starts on 3rd beat
-    % last c has no alteration on Bach's manuscript and given that he wrote most (if not all) of "accidentals", this is coming from the key (cis)
-    cis16 a' a c, c a' a c, c b b ais b cis d8~
+    cis16 a' a c, c a' a cis, c b b ais b cis d8~
     
     % 9
     d16 cis b' ais b fis cis' b cis g e' d e8 ais,
@@ -56,10 +55,10 @@
     g( c) c( b) b( d,) d( cis) cis( fis') fis( e) e( ais,) ais( b)
     
     %14
-    b fis e d fis e d cis b <<
-        { fis' fis e e g g fis }
+    b fis e d fis e d cis <<
+        { b fis' fis e e g g fis }
         \\
-        { d d cis cis e e d }
+        { s d d cis cis e e d }
     >>
     
     % 15 5th system from bach's score starts on 4th beat
@@ -155,10 +154,10 @@
     >> d'32 cis b16 a8~ a16 b32 cis d16 e
     
     % 28
-    fis32 e d16 \appoggiatura d8 e~ e16 d32 e fis e d cis d8 d, \tuplet 3/2 8 { r16 d e fis g a }
+    fis32 e d16 \appoggiatura d16 e8~ e16 d32 e fis e d cis d8 d, \tuplet 3/2 8 { r16 d e fis g a }
     
     % 29
-    b16 d, dis a' \tuplet 3/2 8 { g e fis gis a b } cis e, eis b' \tuplet 3/2 8 { a fis gis a b cis }
+    b16 d, dis a' \tuplet 3/2 8 { g e fis gis a b } cis e, eis b' \tuplet 3/2 8 { a fis gis ais b cis }
     
     % 30 2nd page 4th system from bach's score starts on 2nd beat
     d eis, fis cis' \tuplet 3/2 8 { b d cis b a gis fis eis dis eis fis gis } cis, eis gis b
@@ -176,7 +175,8 @@
     a fis' b, gis' a, fis' gis, eis' fis cis b cis a8 r
     
     % 35 2nd page 6th system from bach's score starts here
-    r16 cis' b a gis8 g fis16 ais, b8 r16 fis' gis b
+    % Seems like on 3rd beat, Bach decided to overwrite with a voice going down (or the voice doing the octave a valid voice?)
+    r16 cis'( b a) gis8 g fis16 ais, b8 r16 fis' gis b
     
     % 36
     % Assuming that the voice that goes up on third beat on Bach's manuscript was just a mistake and he overwrote it
@@ -284,13 +284,10 @@
     d8 e d c b\prall a16 b \tuplet 3/2 8 { g16 b a g fis e }
     
     % 65
-    <<
-        \tuplet 3/2 8 { fis16 a g fis d e fis a g fis d e f a g f e d c b c d e f }
-        \\
-        { d16 }
-    >>
+    \tuplet 3/2 8 { fis16 a g fis d e fis a g fis d e f a g f e d c b c d e f }
     
     % 66
+    % Had to use another manuscript to know how to go on 4th beat
     \tuplet 3/2 8 { e16 g f e c d e g f e c d e g f e d c b a b c d e }
     
     % 67 4th page 5th system from bach's score starts here
