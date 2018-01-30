@@ -13,7 +13,57 @@
   % original manuscript is public domain
 }
 
-%{
+
+% All flute parts together
+\book {
+    
+    \bookOutputName "BWV 1030 - Flute"
+    
+    \score {
+        <<
+            \new Staff {
+                \clef G
+                \include "1-andante-flute.ly"
+            }
+        >>
+        \header {
+            piece = "I Andante"
+        }
+    }
+    \score {
+        <<
+            \new Staff {
+                \clef G
+                \include "2-largo-flute.ly"
+            }
+        >>
+        \header {
+            piece = "II Largo"
+        }
+    }
+    \score {
+        <<
+            \new Staff {
+                \clef G
+                \include "3-presto-1-flute.ly"
+            }
+        >>
+        \header {
+            piece = "III Presto"
+        }
+    }
+    \score {
+        <<
+            \new Staff {
+                \clef G
+                \include "3-presto-2-flute.ly"
+            }
+        >>
+    }
+}
+
+
+% Separate parts (piano/flute)
 \book {
     
     \bookOutputName "BWV 1030 - 1 Andante"
@@ -112,9 +162,6 @@
         }
     }
 }
-
-
-%}
 
 % PDF file
 \book {
