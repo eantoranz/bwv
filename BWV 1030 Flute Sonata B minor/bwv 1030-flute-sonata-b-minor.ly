@@ -15,6 +15,8 @@
 
 %{
 \book {
+    
+    \bookOutputName "BWV 1030 - 1 Andante"
 
     \score {
         <<
@@ -60,11 +62,11 @@
         }
     }
 }
-%}
-
 
 
 \book {
+    
+    \bookOutputName "BWV 1030 - 2 Largo e Dolce"
 
     \score {
         <<
@@ -107,6 +109,110 @@
         >>
         \midi {
             \tempo 8 = 50
+        }
+    }
+}
+
+
+%}
+
+% PDF file
+\book {
+    
+    \bookOutputName "BWV 1030 - 3 Presto"
+
+    \score {
+        \header {
+            piece = "III Presto"
+        }
+        <<
+            \new Staff {
+                \clef G
+                \include "3-presto-1-flute.ly"
+            }
+            \new PianoStaff <<
+                \new Staff {
+                    \clef G
+                    \include "3-presto-1-piano-right.ly"
+                }
+                \new Staff {
+                    \clef F
+                    \include "3-presto-1-piano-left.ly"
+                }
+            >>
+        >>
+    }
+    \score {
+        <<
+            \new Staff {
+                \clef G
+                \include "3-presto-2-flute.ly"
+            }
+            \new PianoStaff <<
+                \new Staff {
+                    \clef G
+                    \include "3-presto-2-piano-right.ly"
+                }
+                \new Staff {
+                    \clef F
+                    \include "3-presto-2-piano-left.ly"
+                }
+            >>
+        >>
+        
+    }
+}
+
+
+% MIDI files
+\book {
+    
+    \bookOutputName "BWV 1030 - 3 Presto 1"
+
+    \score {
+        <<
+            \new Staff \with {midiInstrument = "flute"} {
+                \include "3-presto-1-flute.ly"
+            }
+            \new PianoStaff \with {midiInstrument = "acoustic grand"}<<
+                \new Staff {
+                    \clef G
+                    \include "3-presto-1-piano-right.ly"
+                }
+                \new Staff {
+                    \clef F
+                    \include "3-presto-1-piano-left.ly"
+                }
+            >>
+        >>
+        \midi {
+            \tempo 2 = 60
+        }
+    }
+}
+
+\book {
+    
+    \bookOutputName "BWV 1030 - 3 Presto 2"
+
+    \score {
+        <<
+            \new Staff \with {midiInstrument = "flute"} {
+                \include "3-presto-2-flute.ly"
+            }
+            \new PianoStaff \with {midiInstrument = "acoustic grand"}<<
+                \new Staff {
+                    \clef G
+                    \include "3-presto-2-piano-right.ly"
+                }
+                \new Staff {
+                    \clef F
+                    \include "3-presto-2-piano-left.ly"
+                }
+            >>
+        >>
+        \midi {
+            \tempo 16 = 210
         }
     }
 }
