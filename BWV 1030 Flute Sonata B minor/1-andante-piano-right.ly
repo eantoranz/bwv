@@ -16,13 +16,13 @@
     \partial 4 r16 e d cis
 
     % 1
-    d( b') e,( ais) b fis cis' e, d b' e, ais b fis cis' e,
+    d( b') e,( ais) b( fis) cis'( e,) d( b') e,( ais) b fis cis' e,
     
     % 2
     d b' e, cis' d, b' cis, ais' b fis e fis d fis g b
     
     % 3
-    eis,( cis') cis fis, fis e dis e dis b' b e, e d cis d
+    eis,( cis') cis( fis,) fis e dis e dis b' b e, e d cis d
     
     % 4 2nd system from bach's score starts on 3rd beat
     cis( ais' b d) cis( b ais b) cis b ais gis fis e d cis
@@ -37,7 +37,7 @@
     d16 b' b d, d b' b d, d cis cis b cis4~
     
     % 8 3rd system from bach's score starts on 3rd beat
-    cis16 a' a c, c a' a cis, c b b ais b cis d8~
+    cis16 a' a c, c a' a cis, cis b b ais b cis d8~
     
     % 9
     d16 cis b' ais b fis cis' b cis g e' d e8 ais,
@@ -66,7 +66,7 @@
         { fis ais b d }
         \\
         { d,8 }
-    >> cis'16( fis) fis( eis) <<
+    >> cis'16 fis fis eis <<
         { r d, d cis cis fis fis e }
         \\
         { r b b ais ais d d cis }
@@ -176,14 +176,14 @@
     
     % 35 2nd page 6th system from bach's score starts here
     % Seems like on 3rd beat, Bach decided to overwrite with a voice going down (or the voice doing the octave a valid voice?)
-    r16 cis'( b a) gis8 g fis16 ais, b8 r16 fis' gis b
+    r16 cis' b a gis8 g fis16 ais, b8 r16 fis' gis b
     
     % 36
     % Assuming that the voice that goes up on third beat on Bach's manuscript was just a mistake and he overwrote it
     eis, cis' cis fis, fis e dis e dis b' b e, e8 e'
     
     % 37
-    e\prall dis r d d\prall cis r cis,
+    e dis r d d cis r cis,
     
     % 38 3rd page from bach's score starts here
     cis' cis4 b32 cis d16 cis8 cis4 b32 cis d16
@@ -210,13 +210,13 @@
     d16 cis b'32 a gis16 gis a d,8~ \tuplet 3/2 8 { d16 cis e } bes8~ bes16 a g'32 fis e16
     
     % 46
-    e( fis) r8 r4 r8 b ais16 cis g8~
+    e fis r8 r4 r8 b ais16 cis g8~
     
     % 47 3rd page 4th system from bachs score starts on 2nd beat
     g16 fis e'32 d cis16 cis d g,8~ \tuplet 3/2 8 { g16 fis a } ees8~ ees16 d c'32 b a16
     
     % 48
-    a( b) r8 r b, c dis( e g)
+    a( b) r8 r b, c( dis e g)
     
     % 49
     ais d cis e, d cis16 b d cis b ais
@@ -232,10 +232,10 @@
     
     % 53 3rd page 6th syste from bach's score starts on 3rd beat
     % Slur on 1st beat seems to have been written on a separate session (darker die)
-    a'32( gis fis16) \appoggiatura fis8 gis8~ gis16 fis32 gis a gis fis eis fis e d16 cis8~ cis16 dis32 eis fis16 gis
+    a'32 gis fis16 \appoggiatura fis8 gis8~ gis16 fis32 gis a gis fis eis fis e d16 cis8~ cis16 dis32 eis fis16 gis
     
     % 54
-    a32 gis fis16 gis8~ gis16 fis32( gis a gis fis eis) fis8 fis, r cis'
+    a32 gis fis16 gis8~ gis16 fis32 gis a gis fis eis fis8 fis, r cis'
     
     % 55
     a' a a a a32 gis fis16 \appoggiatura fis8 gis4 b,8
@@ -260,7 +260,7 @@
     <<
         { e b' e b r e, g cis, }
         \\
-        { r e b' e, r a, d a }
+        { r e b' e, r a, e' a, }
     >>
     
     % 61 4th page 3rd system from bach's score starts on 3rd beat
@@ -278,10 +278,10 @@
     >>
     
     % 63
-    d'8 d4 c32 d e16 d8 d4 c32( d e16)
+    d'8 d4 c32 d e16 d8 d4 c32 d e16
     
     % 64 4th page 4th system from bach's score starts here
-    d8 e d c b\prall a16 b \tuplet 3/2 8 { g16 b a g fis e }
+    d8 e d c b a16 b \tuplet 3/2 8 { g16 b a g fis e }
     
     % 65
     \tuplet 3/2 8 { fis16 a g fis d e fis a g fis d e f a g f e d c b c d e f }
@@ -320,7 +320,7 @@
     
     % 76
     % Bach's manuscript has no articulation
-    e dis cis16 dis8 c' f, dis e r4
+    e( dis cis16) dis8 c' f, dis e r4
     
     % 77
     r8 g fis b gis( a) r4
@@ -368,10 +368,10 @@
     b4 r8 b~ \tuplet 3/2 8 { b16 ais cis } g8~ g16 fis e'32( d cis16)
     
     % 92 6th page from bach's score starts here
-    cis( d) r8 r4 r8 g,8~ \tuplet 3/2 8 { g16 fis a } ees8~
+    cis d r8 r4 r8 g,8~ \tuplet 3/2 8 { g16 fis a } ees8~
     
     % 93
-    ees16 d c'32 b a16 a( b) e,8~ \tuplet 3/2 8 { e16 dis fis } c8~ c16 b a'32 g fis16
+    ees16 d c'32( b a16) a( b) e,8~ \tuplet 3/2 8 { e16 dis fis } c8~ c16 b a'32 g fis16
     
     % 94
     fis( g) r8 r4 r8 c,~ \tuplet 3/2 8 { c16 b d } aes8~
@@ -386,10 +386,10 @@
     ais d cis e, d cis16 b d cis b ais
     
     % 98 6th page 3rd system from bach's score starts on 3rd beat
-    b4 r8 eis b' ais r e
+    b4 r8 eis b'( ais) r e
     
     % 99
-    d g fis b eis,( fis) r4
+    d g fis b eis, fis r4
     
     % 100
     r r8 fis d'32 cis b16 cis8~ cis16 b32 cis d cis b ais
@@ -425,13 +425,13 @@
     \tuplet 3/2 8 { g16 fis e fis e d c b a gis a c } fis8 fis fis fis
     
     % 111 7th page 2nd system from bach's score starts on 3rd beat
-    fis32 e dis16 \appoggiatura dis8 e4 e'8~ e16 cis ais b b( cis32 d) cis16 e,
+    fis32 e dis16 \appoggiatura dis8 e4 e'8~ e16 cis ais b b cis32 d cis16 e,
     
     % 112
     d cis32 b cis16 g' fis e d cis b8 e d g
     
     % 113
-    eis( fis) r4 r8 fis e a
+    eis fis r4 r8 fis e a
     
     % 114
     fis( g) r4 r8 b a d
@@ -440,13 +440,13 @@
     b( c) ais( b) fis4 r8 fis
     
     % 116
-    d' d d d d32 c b16 \appoggiatura b8 c4 e,8
+    d' d d d d32( c b16) \appoggiatura b8 c4 e,8
     
     % 117
-    c' c c c c32 b ais16 \appoggiatura ais8 b4 d,8~
+    c' c c c c32( b ais16) \appoggiatura ais8 b4 d,8~
     
     % 118
-    d16 cis cis c c b b ais ais g' g fis fis( ais) ais( b)
+    d16 cis cis c c b b ais ais g' g fis fis ais ais b
     
     % 119 7th page 4th system from bach's score starts here
     b,8 g'16 fis e d cis b b4. \bar "|."

@@ -9,6 +9,7 @@
   title = "Sonata for Flute and Harpsichord in B minor"
   opus = "BWV 1030"
   composer = "J. S. Bach."
+  arranger = "Johann Christoph Altnikol"
   copyright = "Lilypond files copyright 2018 Edmundo Carmona Antoranz. Released under CC 4.0 by-sa"
   % original manuscript is public domain
 }
@@ -17,7 +18,7 @@
 % All flute parts together
 \book {
     
-    \bookOutputName "BWV 1030 - Flute"
+    \bookOutputName "BWV 1030 - Flute - JCAltnikol"
     
     \score {
         <<
@@ -66,7 +67,7 @@
 % Separate parts (piano/flute)
 \book {
     
-    \bookOutputName "BWV 1030 - 1 Andante"
+    \bookOutputName "BWV 1030 - 1 Andante - JCAltnikol"
 
     \score {
         <<
@@ -116,7 +117,7 @@
 
 \book {
     
-    \bookOutputName "BWV 1030 - 2 Largo e Dolce"
+    \bookOutputName "BWV 1030 - 2 Largo e Dolce - JCAltnikol"
 
     \score {
         <<
@@ -166,7 +167,7 @@
 % PDF file
 \book {
     
-    \bookOutputName "BWV 1030 - 3 Presto"
+    \bookOutputName "BWV 1030 - 3 Presto - JCAltnikol"
 
     \score {
         \header {
@@ -214,7 +215,7 @@
 % MIDI files
 \book {
     
-    \bookOutputName "BWV 1030 - 3 Presto 1"
+    \bookOutputName "BWV 1030 - 3 Presto 1 - JCAltnikol"
 
     \score {
         <<
@@ -240,7 +241,7 @@
 
 \book {
     
-    \bookOutputName "BWV 1030 - 3 Presto 2"
+    \bookOutputName "BWV 1030 - 3 Presto 2 - JCAltnikol"
 
     \score {
         <<

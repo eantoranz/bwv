@@ -47,23 +47,23 @@
     
     % 11
     % Articulation on 3rd beat is on JS Bach's manuscript
-    dis16 fis c8~ c16 b a'32( g fis16) fis8( g) r d
+    dis16 fis c8~ c16 b a'32( g fis16) fis8 g r d
     
     % 12 4th system from bachs's score starts on 2nd beat
     cis16 e gis,8~ gis16 a g'32( fis e16) e8( fis) r b,
     
     % 13
     % @TODO Articulations... not sure yet
-    c dis( e) g( ais d) cis e,
+    c( dis e g) ais( d cis e,)
     
     % 14
     d8 cis16 b d cis b ais b4 r8 cis(
     
     % 15 5th system from bach's score starts on 4th beat
-    d) g( fis) b eis,( fis) r b(
+    d) g( fis) b eis,( fis) r b
     
     % 16
-    ais) d( cis) e g,( fis) r fis
+    ais d cis e g, fis r fis
     
     % 17
     d' d d d d32 c b16 \appoggiatura b8 c4 e,8
@@ -83,13 +83,13 @@
     
     % 22 2nd page 1st system from bach's score starts here
     % Articulation on beat 2 is on JS Bach's manuscript
-    d32 cis b16 \appoggiatura b8 cis8~ cis16 b32( cis d cis b ais) b8 b, \tuplet 3/2 8 { r16 b cis d e fis }
+    d32 cis b16 \appoggiatura b8 cis8~ cis16 b32 cis d cis b ais b8 b, \tuplet 3/2 8 { r16 b cis d e fis }
     
     % 23
     g16 b, a fis' g, e' gis, d' d32 cis b16 \appoggiatura b16 cis8~ \tuplet 3/2 8 { cis16 a b cis d e }
     
     % 24
-    fis16 a, g e' fis, d' a c c32 b ais16 \appoggiatura ais8 b8~ \tuplet 3/2 8 { b16 g a b c d }
+    fis16 a, g e' fis, d' a c c32 b ais16 \appoggiatura ais8 b8~ \tuplet 3/2 8 { b16 g a b cis d }
     
     % 25 2nd page 2dn system from bachs's score starts here
     \tuplet 3/2 8 { e g fis e d cis b ais b cis d e fis d e fis gis ais b fis gis ais b cis }
@@ -177,11 +177,11 @@
     
     % 53 3rd page 6th syste from bach's score starts on 3rd beat
     % Slur on 4th beat is on Bach's manuscript
-    r4 r8 cis, a'32 gis fis16 \appoggiatura fis8 gis8~ gis16 fis32( gis a gis fis eis)
+    r4 r8 cis, a'32 gis fis16 \appoggiatura fis8 gis8~ gis16 fis32 gis a gis fis eis
     
     % 54
     % Slur on 1st beat is on Bach's manuscript
-    fis32( e? d16) cis8~ cis16 dis32 eis fis16 gis a32 gis fis16 gis8~ gis16 fis32 gis a gis fis eis
+    fis32 e? d16 cis8~ cis16 dis32 eis fis16 gis a32 gis fis16 gis8~ gis16 fis32 gis a gis fis eis
     
     % 55
     fis8 fis, r fis' d' d d d
@@ -228,7 +228,7 @@
     
     % 69
     % No articulation on Bach's manuscript
-    b'8 b4 a32 b c16 b8 b4 a32 b c16
+    b'8 b4 a32( b c16) b8 b4 a32 b c16
     
     % 70 4th page 6th system from bach's score starts here
     b8 c b a g fis16 g e8 r
@@ -256,7 +256,7 @@
     
     % 78 5th page 3rd system from bach's score starts on 2nd beat
     % Bach's manuscript has no articulation on 1st beat
-    e f dis( e) ais( b) e,( d)
+    e( f) dis( e) ais( b) e,( d)
     
     % 79
     b'2\trill \tuplet 3/2 8 { ais16 cis b ais gis fis e g fis e d cis }
@@ -274,7 +274,7 @@
     ais, fis' fis b, b a gis a gis e' e a, a8 a'
     
     % 84
-    a\prall gis r g g\prall fis r fis,
+    a\trill gis r g g fis r fis,
     
     % 85 5th page 5th system from bach's score starts on 3rd beat
     fis' fis4 e32( fis g16) fis8 fis4 e32( fis g16)
@@ -295,7 +295,7 @@
     gis g fis f e g, fis e'~
     
     % 91
-    e16 d32 cis d16 e e8.\trill d32 e fis8 b ais16 cis g8~
+    e16 d32 cis d16 e e8.\trill( d32 e fis8) b ais16 cis g8~
     
     % 92
     g16 fis e'32 d cis16 cis( d) g,8~ \tuplet 3/2 8 { g16 fis a } ees8~ ees16 d c'32 b a16
@@ -349,10 +349,10 @@
     \tuplet 3/2 8 { e, cis' d e fis g g fis gis ais b cis cis cis, d e fis g g fis gis ais b cis }
     
     % 109
-    d8 d d d \tuplet 3/2 8 { d16 c b c b a g fis e dis e g }
+    d8 d d d \tuplet 3/2 8 { d16 c b c b a g fis e dis e fis }
     
     % 110
-    c8 c c c c32 b ais16 \appoggiatura ais8 b4 d,8~
+    c'8 c c c c32 b ais16 \appoggiatura ais8 b4 d,8~
     
     % 111 7th page 2nd system from bach's score starts on 3rd beat
     d16 cis cis c c( c) b( ais) ais( g') g( fis) fis( ais) ais( b)
@@ -373,7 +373,7 @@
     b,4 r8 b g' g g g
     
     % 117
-    g32 fis e16 \appoggiatura e8 fis4 a,8 fis' fis fis fis
+    g32( fis e16) \appoggiatura e8 fis4 a,8 fis' fis fis fis
     
     % 118
     fis32 e dis16 \appoggiatura dis8 e4 e'8~ e16 cis ais b b cis32 d cis16 e,
