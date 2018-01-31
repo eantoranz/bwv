@@ -135,7 +135,7 @@
     a fis' a,~ a g fis g a b e, g b,
     
     % 37
-    c f e~ e f d e a g~ g a fis
+    c f e~ e f dis e a g~ g a fis
     
     % 38
     g c b~ b c ais b4.~

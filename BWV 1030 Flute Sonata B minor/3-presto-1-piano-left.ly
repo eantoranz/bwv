@@ -50,7 +50,7 @@
     d eis, fis d
     
     % 12
-    e cis' a fis
+    cis cis' a fis
     
     % 13
     b2 r4 gis
@@ -229,7 +229,7 @@
     
     % 69
     % next page starts here
-    fis e' d cis
+    fis e' d b
     
     % 70
     e2 r4 cis
@@ -269,7 +269,7 @@
     fis e d2 e8 fis
     
     % 82
-    g1
+    g1\trill
     
     % 83
     fis1\fermata

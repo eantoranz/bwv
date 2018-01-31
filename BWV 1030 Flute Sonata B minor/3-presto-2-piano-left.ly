@@ -136,7 +136,7 @@
     b16 dis fis b,8 b'16 e,8 fis16 g8 e16
     
     % 37
-    a8 r16 b8 r16 c8 r16 eis,8 r16
+    a8 r16 b8 r16 c8 r16 dis,8 r16
     
     % 38
     e8 r16 c8 r16 b dis fis a g fis

@@ -19,7 +19,7 @@
     < d' b fis >8 r16 < e cis fis, >8 r16 < d b fis>8 r16 < fis d b >8 r16
     
     % 2
-    < e cis b >8 r16 < g e ais, >8 r 16 < fis e ais, >8 r16 < fis d ais >8 r16
+    < e cis b >8 r16 < g e ais, >8 r 16 < fis e ais, >8 r16 < fis d b >8 r16
     
     %3
     % 2nd system starts here
@@ -32,7 +32,7 @@
     b d cis~ cis g fis~ fis e' d~ d a gis~
     
     % 6
-    gis fis' e~ e b ais~ ais gis' fis r ais, b
+    gis fis' e~ e b ais~ ais g' fis r ais, b
     
     % 7
     % 3rd system starts here
@@ -78,7 +78,7 @@
     
     % 20
     % 2nd system starts on 2nd beat
-    dis cis' b~ b gis eis~ eis d' cis r eis, fis
+    dis cis' b~ b fis eis~ eis d' cis r eis, fis
     
     % 21
     d' eis, fis cis' eis, fis b eis, fis a eis fis
@@ -214,7 +214,7 @@
     r8. r8 b,,16 ais fis ais cis eis fis
     
     % 57
-    b, gis b dis eis fis cis8 cis'16 ais8 e16
+    b, gis b d eis fis cis8 cis'16 ais8 e16
     
     % 58
     d8 d'16 b8 fis16 e8 e'16 cis8 ais16

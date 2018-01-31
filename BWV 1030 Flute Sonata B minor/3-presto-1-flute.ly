@@ -20,7 +20,7 @@
     cis4 g'( fis) b,
     
     % 3
-    ais e' d b
+    ais e'( d) b
     
     % 4
     % 2nd system starts here
@@ -149,7 +149,7 @@
     fis e d e fis gis ais b
     
     % 44
-    cis d cis b ais g fis e
+    cis d cis b ais gis fis e
     
     % 45
     d cis b cis d e fis g
@@ -193,13 +193,13 @@
     e8 g fis e dis cis b a
     
     % 58
-    g4 cis b dis
+    g4 c b dis
     
     % 59
-    e g cis,2~
+    e g c,2~
     
     % 60
-    cis4 a' d,2~
+    c4 a' d,2~
     
     % 61
     d8 c b c d e f d

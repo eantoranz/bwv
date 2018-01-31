@@ -271,14 +271,8 @@
     fis4 g8 fis e d cis b
     
     % 83
-    fis1\fermata
+    fis'1\fermata
     
     \bar "||"
     
-    %{\time 12/16
-    \partial 16 r16
-    
-    % 84
-    < d b fis >8 r16 < e cis fis, >8 r16 < d b fis>8 r16 < fis d b >8 r16%}
-
 }
