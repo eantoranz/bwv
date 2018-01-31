@@ -124,7 +124,7 @@
     cis fis ais fis b e, d'32 cis b16 cis e
     
     % 37
-    ais, fis' fis b, b a gis a gis eis' eis b a gis fis e
+    ais, fis' fis b, b a gis a gis eis' eis b a gis fis eis
     
     % 38 3rd page from bach's score starts here
     fis8 gis a eis fis gis a eis
@@ -139,7 +139,7 @@
     a16( g fis e) fis8 a d,16( c b a) b8 d
     
     % 42
-    g fis g16 fis( e d) cis8 c \tuplet 3/2 8 { b16 ais b cis b ais }
+    g fis g16( fis e d) cis8 c \tuplet 3/2 8 { b16 ais b cis b ais }
     
     % 43
     b fis fis eis eis( e') e( fis) g( b,) b( a) a( g) g( fis)
@@ -157,7 +157,7 @@
     b ais b bes a c, d fis
     
     % 48
-    g fis g16( gis) gis a a( g) g( fis) g( fis) fis( e) 
+    g fis g16( gis) gis( a) a( g) g( fis) g( fis) fis( e)
     
     % 49 (Q: first a is ais?.... g on 3 beat?)
     fis( gis) gis( ais) ais( b) b( ais) b8 g e fis
@@ -236,7 +236,7 @@
     g' fis e d c b a g
     
     % 73
-    f' e dis cis b a g fis
+    fis' e dis cis b a g fis
     
     % 74
     e b'16 cis dis8 b b, dis'16 cis dis8 b
@@ -263,7 +263,7 @@
     b e, fis fis, b4 r8 b'
     
     % 82 5th page 4th system from bach's score starts here
-    b\prall ais r a a gis r g
+    b\prall ais r a a\prall gis r g
     
     % 83
     fis b, dis b e a16 g fis e fis a
@@ -281,20 +281,20 @@
     e16( d cis b) cis8 e a16( g fis e) fis8 a
     
     % 88
-    d,16( c b a) b8 d g16( f e d) e8 g
+    d,16( c b a) b8 d g16 f e d e8 g
     
     % 89 5th page 6th system from bach's score starts here
     c, b c16 e a g fis8 f \tuplet 3/2 8 { e16 dis e fis e dis }
     
     % 90
     % Bach's manuscript has no articulations on 2nd beat
-    e( b') b( ais) ais a a b c( e,) e( d) d c c b
+    e( b') b( ais) ais( a) a( b) c( e,) e( d) d c c b
     
     % 91
     b( b') b( a) a( g) g( fis) fis4 r8 ais
     
     % 92 6th page from bach's score starts here
-    b ais b bes a c, d fis
+    b ais b bes a c, d e
     
     % 93
     g fis g c fis, a b, dis
@@ -304,19 +304,19 @@
     
     % 95 6th page 2nd system from bach's score starts here
     % Bach's manuscript doesn't have articulations on 3rd beat
-    c b c cis d16 c c b c( b) b( a)
+    c b c cis d16( c) c( b) c( b) b( a)
     
     % 96
     b( a) a( g) a( e') e( dis) e8 c a b
     
     % 97
-    cis16( b') b( ais) ais( cis) cis( ais) b8 g e fis
+    cis16( b') b( ais) ais( b) b( ais) b8 g e fis
     
     % 98 6th page 3rd system from bach's score starts on 3rd beat
     b16 b, b( a) a( g) g( fis) fis( e') e( d) d( cis) cis( b)
     
     % 99
-    b( b') b( a) a( g) g( fis) fis e' e( d) d( cis) cis( b)
+    b( b') b( a) a( g) g( fis) fis( e') e( d) d( cis) cis( b)
     
     % 100
     b8 ais16 gis ais8 fis fis, ais'16 gis ais8 fis
@@ -373,7 +373,7 @@
     a, e' a b a g fis e d8. cis16 d e fis d
     
     % 118
-    g8 g, g g fis e' d fis
+    g8 g, g g e e' d fis
     
     % 119 7th page 4th system from bach's score starts here
     g e fis fis, b4. \bar "|."
