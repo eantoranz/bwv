@@ -225,7 +225,7 @@
     b4 ais b g~
     
     % 68
-    g ais, b fis
+    g ais, b g
     
     % 69
     % next page starts here
