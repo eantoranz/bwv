@@ -33,7 +33,7 @@
     a eis'( fis) ais,
     
     % 7
-    b \appoggiatura cis8 e4 d cis
+    b \appoggiatura d8 e4 d cis
     
     % 8
     d8 cis b cis d e fis gis
@@ -240,7 +240,7 @@
     d4 g fis ais
     
     % 73
-    d8 cis d2 d4~
+    b8 cis d2 d4~
     
     % 74
     d4 c8 b c2

@@ -50,7 +50,7 @@
     
     % 11
     % 4th system starts on 2nd beat
-    g8.~ g16 fis e fis8. fis16 e d
+    g8.~ g16 fis e fis8.~ fis16 e d
     
     % 12
     b'8.~ b16 a g a8.~ a16 g fis
@@ -210,7 +210,7 @@
     fis eis fis fis, ais cis fis eis fis fis, ais cis
     
     % 60
-    fis eis fis fis, b d fis eis fis fis, b dis
+    fis eis fis fis, b d fis e fis fis, b dis
     
     % 61
     e8.~ e16 d cis d8.~ d16 cis b

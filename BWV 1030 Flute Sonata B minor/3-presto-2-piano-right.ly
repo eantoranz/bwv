@@ -121,14 +121,12 @@
         { fis8.~ fis8 }
         \\
         { fis16 cis ais~ ais8 }
-        \\
-        { s8. < cis fis, >8 }
     >>
     \bar ":.."
-    fis16
+    fis'16
     
     % 33
-    ais cis g~ g fis eis fis cis' fis,~ fis e dis
+    ais cis g~ g fis e fis cis' fis,~ fis e dis
     
     % 34
     e cis' e,~ e d cis d e fis b, d fis
@@ -165,7 +163,7 @@
     c' dis, e b' dis, e a4.~
     
     % 42
-    a8 g16 g8\trill fis16 d' b g fis g d
+    a8 g16 g8 fis16 d' b g fis g d
     
     % 43
     % 2nd system starts on 3rd beat
@@ -182,7 +180,7 @@
     
     % 47
     % 3rd system starts on 3rd beat
-    d8 c16 c8 b16 b8\trill a16 a8\trill g16
+    d8 c16 c8\trill b16 b8\trill a16 a8\trill g16
     
     % 48
     g8\trill fis16 fis8\trill e16 e8. r8 cis16
@@ -198,7 +196,7 @@
     ais' cis g~ g fis eis fis cis' fis,~ fis e dis
     
     % 52
-    e cis' e,~ e d cis d fis b d8.~
+    e cis' e,~ e d cis d fis a d8.~
     
     % 53
     d16 g, b e,8.~ e16 cis e a8.~
