@@ -65,7 +65,7 @@
     <<
         { fis'8 d b e b d }
         \\
-        { < d b > b fis b gis gis }
+        { d b fis b gis gis }
         \\
         { fis fis d e e e }
     >>
@@ -145,7 +145,7 @@
     <<
         { g''8 e cis e cis a }
         \\
-        { e' cis g < cis g > g < g e > }
+        { e' cis g < cis g > g g }
         \\
         { a g e e e cis }
     >>
