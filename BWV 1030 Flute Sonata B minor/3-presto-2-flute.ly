@@ -1,4 +1,4 @@
-% Sonata for Flute and Haprsichord BWV 1030 in B minor III Presto
+% Sonata for Flute and Harpsichord BWV 1030 in B minor III Presto
 
 %{
     Copyright 2018 Edmundo Carmona Antoranz. Released under CC 4.0 by-sa

@@ -1,4 +1,4 @@
-% Sonata for Flute and Haprsichord BWV 1030 in B minor I Andante
+% Sonata for Flute and Harpsichord BWV 1030 in B minor I Andante
 
 %{
     Copyright 2017 Edmundo Carmona Antoranz. Released under CC 4.0 by-sa

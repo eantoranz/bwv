@@ -1,4 +1,4 @@
-% Sonata for Flute and Haprsichord BWV 1030 in B minor II Largo e Dolce
+% Sonata for Flute and Harpsichord BWV 1030 in B minor II Largo e Dolce
 
 %{
     Copyright 2018 Edmundo Carmona Antoranz. Released under CC 4.0 by-sa

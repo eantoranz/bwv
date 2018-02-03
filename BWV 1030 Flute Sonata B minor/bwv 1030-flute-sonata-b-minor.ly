@@ -1,4 +1,4 @@
-% Sonata for Flute and Harpsichord BWV 1013 in B minor
+% Sonata for Flute and Harpsichord BWV 1030 in B minor
 
 %{
     Copyright 2017 Edmundo Carmona Antoranz. Released under CC 4.0 by-sa
