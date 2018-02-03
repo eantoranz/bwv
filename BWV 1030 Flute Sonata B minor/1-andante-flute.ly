@@ -355,7 +355,7 @@
     c'8 c c c c32 b ais16 \appoggiatura ais8 b4 d,8~
     
     % 111 7th page 2nd system from bach's score starts on 3rd beat
-    d16 cis cis c c( c) b( ais) ais( g') g( fis) fis( ais) ais( b)
+    d16 cis cis c c( b) b( ais) ais( g') g( fis) fis( ais) ais( b)
     
     % 112
     b8. cis16 ais8. b16 b2~
