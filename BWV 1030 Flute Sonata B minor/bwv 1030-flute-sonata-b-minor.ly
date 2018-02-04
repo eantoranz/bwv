@@ -3,12 +3,16 @@
 %{
     Copyright 2017 Edmundo Carmona Antoranz. Released under CC 4.0 by-sa
     Original Manuscript is public domain
+    Editor: Wilhelm Rust
+    Publisher:  Bach-Gesellschaft Ausgabe, Band 9
+                Leipzig: Breitkopf und Härtel, 1860. Plate B.W. IX.
 %}
 
 \header {
   title = "Sonata for Flute and Harpsichord in B minor"
   opus = "BWV 1030"
   composer = "J. S. Bach."
+  % Wilhelm Rust
   copyright = "Lilypond files copyright 2018 Edmundo Carmona Antoranz. Released under CC 4.0 by-sa"
   % original manuscript is public domain
 }
@@ -17,7 +21,7 @@
 % All flute parts together
 \book {
     
-    \bookOutputName "BWV 1030 - Flute"
+    \bookOutputName "BWV 1030 - Flute - WRust"
     
     \score {
         <<
@@ -66,7 +70,7 @@
 % Separate parts (piano/flute)
 \book {
     
-    \bookOutputName "BWV 1030 - 1 Andante"
+    \bookOutputName "BWV 1030 - 1 Andante - WRust"
 
     \score {
         <<
@@ -116,7 +120,7 @@
 
 \book {
     
-    \bookOutputName "BWV 1030 - 2 Largo e Dolce"
+    \bookOutputName "BWV 1030 - 2 Largo e Dolce - WRust"
 
     \score {
         <<
@@ -166,7 +170,7 @@
 % PDF file
 \book {
     
-    \bookOutputName "BWV 1030 - 3 Presto"
+    \bookOutputName "BWV 1030 - 3 Presto - WRust"
 
     \score {
         \header {
@@ -214,7 +218,7 @@
 % MIDI files
 \book {
     
-    \bookOutputName "BWV 1030 - 3 Presto 1"
+    \bookOutputName "BWV 1030 - 3 Presto 1 - WRust"
 
     \score {
         <<
@@ -240,7 +244,7 @@
 
 \book {
     
-    \bookOutputName "BWV 1030 - 3 Presto 2"
+    \bookOutputName "BWV 1030 - 3 Presto 2 - WRust"
 
     \score {
         <<
