@@ -3,6 +3,9 @@
 %{
     Copyright 2017 Edmundo Carmona Antoranz. Released under CC 4.0 by-sa
     Original Manuscript is public domain
+    Editor: Wilhelm Rust
+    Publisher:  Bach-Gesellschaft Ausgabe, Band 9
+                Leipzig: Breitkopf und Härtel, 1860. Plate B.W. IX.
 %}
 
 
@@ -22,7 +25,7 @@
     b e, fis fis, b4 r8 b'
     
     % 3
-    b ais r a a gis r g
+    b( ais) r a a( gis) r g
 
     % 4 2nd system from bach's score starts on 3rd beat
     g fis e g fis gis ais b
@@ -31,10 +34,10 @@
     b, cis d ais b cis d ais
     
     % 6
-    b e fis fis, b4 r16 b' a b
+    b e fis fis, b4 r16 b'( a b)
     
     % 7
-    e,8 e, r e a4 r16 a' g a
+    e,8 e, r e a4 r16 a'( g a)
     
     % 8 3rd system from bach's score starts on 3rd beat
     d,8 d, r d g4 r8 b
@@ -70,7 +73,7 @@
     a8. b16 a g fis e d8. cis16 d e fis d
     
     % 19 6th system from bach's score starts here
-    g8 g, g g e e' d fis
+    g8 g, g g fis e' d fis
     
     % 20
     g e fis fis, b b, d fis
@@ -118,13 +121,13 @@
     fis b cis cis, fis4 r8 fis'
     
     % 35 2nd page 6th system from bach's score starts here
-    fis\prall eis r e e\prall dis r d
+    fis\prall( eis) r e e\prall( dis) r d
     
     % 36
-    cis fis ais fis b e, d'32 cis b16 cis e
+    cis fis ais fis b e, d'?32 cis b16 cis e
     
     % 37
-    ais, fis' fis b, b a gis a gis eis' eis b a gis fis e
+    ais,( fis') fis b, b a gis a gis( eis') eis b a gis fis eis
     
     % 38 3rd page from bach's score starts here
     fis8 gis a eis fis gis a eis
@@ -139,10 +142,10 @@
     a16( g fis e) fis8 a d,16( c b a) b8 d
     
     % 42
-    g fis g16 fis( e d) cis8 c \tuplet 3/2 8 { b16 ais b cis b ais }
+    g fis g16( fis e d) cis8 c \tuplet 3/2 8 { b16 ais b cis b ais }
     
     % 43
-    b fis fis eis eis( e') e( fis) g( b,) b( a) a( g) g( fis)
+    b( fis) fis( eis) eis e'? e( fis) g( b,) b( a) a( g) g( fis)
     
     % 44 3rd page 3rd system from bachs score starts on 3rd beat
     fis( fis') fis( e) e( d) d( cis) cis4 r8 eis
@@ -157,7 +160,7 @@
     b ais b bes a c, d fis
     
     % 48
-    g fis g16( gis) gis a a( g) g( fis) g( fis) fis( e) 
+    g fis g16( gis) gis( a) a( g) g( fis) g( fis) fis( e) 
     
     % 49 (Q: first a is ais?.... g on 3 beat?)
     fis( gis) gis( ais) ais( b) b( ais) b8 g e fis
@@ -169,7 +172,7 @@
     fis,16( fis') fis( e) e( d) d( cis) cis( b') b( a) a( gis) gis( fis)
     
     % 52
-    fis( fis') fis( e) e d d cis cis b b a a gis gis fis
+    fis fis' fis( e) e( d) d( cis) cis( b) b( a) a( gis) gis( fis)
     
     % 53 3rd page 6th syste from bach's score starts on 3rd beat
     fis8 eis16 dis eis8 cis cis, eis'16 dis eis8 cis
@@ -178,10 +181,10 @@
     cis, eis'16 dis eis8 cis a b cis cis,
     
     % 55
-    fis fis'16 gis fis e d cis b8. a16 b16 cis d b
+    fis fis'16 gis fis e d cis b8. ais16 b16 cis d b
     
     % 56 4th page from bach's score starts here
-    e,8 e'16 fis e d cis b a8. g16 a b c a
+    e,8 e'16 fis e d cis b a8. gis16 a( b) c( a)
     
     % 57
     d8 d, d d cis gis'' a cis
@@ -208,11 +211,7 @@
     g c d d, g, a b c
     
     % 65
-    <<
-        { d' }
-        \\
-        { d, d c c b b g g }
-    >>
+    d d c c b b g g
     
     % 66
     c c b b a a f f
@@ -236,7 +235,7 @@
     g' fis e d c b a g
     
     % 73
-    f' e dis cis b a g fis
+    fis' e dis cis b a g fis
     
     % 74
     e b'16 cis dis8 b b, dis'16 cis dis8 b
@@ -251,7 +250,7 @@
     fis( e) e( dis) e( d) d( cis) d( c) c( b) c( b) b( a)
     
     % 78 5th page 3rd system from bach's score starts on 2nd beat
-    b( a) a( gis) a( g) g( fis) g( fis) fis( g) g fis fis eis
+    b( a) a( gis) a( g) g( fis) g( fis) fis( g) g( fis) fis( eis)
     
     % 79
     eis2 fis4 r8 b
@@ -263,13 +262,13 @@
     b e, fis fis, b4 r8 b'
     
     % 82 5th page 4th system from bach's score starts here
-    b\prall ais r a a gis r g
+    b\prall( ais) r a a\prall( gis) r g
     
     % 83
     fis b, dis b e a16 g fis e fis a
     
     % 84
-    dis, b' b e, e d cis d cis ais' ais e d cis b ais
+    dis,( b') b e, e d cis d cis( ais') ais e d cis b ais
     
     % 85 5th page 5th system from bach's score starts on 3rd beat
     b8 cis d ais b cis d ais
@@ -288,7 +287,7 @@
     
     % 90
     % Bach's manuscript has no articulations on 2nd beat
-    e( b') b( ais) ais a a b c( e,) e( d) d c c b
+    e( b') b( ais) ais a a( b) c( e,) e( d) d( c) c( b)
     
     % 91
     b( b') b( a) a( g) g( fis) fis4 r8 ais
@@ -304,19 +303,19 @@
     
     % 95 6th page 2nd system from bach's score starts here
     % Bach's manuscript doesn't have articulations on 3rd beat
-    c b c cis d16 c c b c( b) b( a)
+    c b c cis d16( c) c( b) c( b) b( a)
     
     % 96
-    b( a) a( g) a( e') e( dis) e8 c a b
+    b( a) a( g) a( e') e( dis) e8( c) a( b)
     
     % 97
-    cis16( b') b( ais) ais( cis) cis( ais) b8 g e fis
+    cis16( b') b( ais) ais( b) b( ais) b8 g e fis
     
     % 98 6th page 3rd system from bach's score starts on 3rd beat
     b16 b, b( a) a( g) g( fis) fis( e') e( d) d( cis) cis( b)
     
     % 99
-    b( b') b( a) a( g) g( fis) fis e' e( d) d( cis) cis( b)
+    b b' b( a) a( g) g( fis) fis e' e( d) d( cis) cis( b)
     
     % 100
     b8 ais16 gis ais8 fis fis, ais'16 gis ais8 fis
@@ -355,7 +354,7 @@
     g, g g g fis e' d fis
     
     % 112
-    g e fis fis, g16 g' g fis fis e e fis
+    g e fis fis, g16 g' g( fis) fis( e) e( fis)
     
     % 113
     fis8 r16 fis' fis( e) e( d) e( d) d( cis) d( c) c( b)
@@ -367,7 +366,7 @@
     fis( e) e( d) e( d) d( cis) d( cis) cis( b) cis( b) b( ais)
     
     % 116
-    b fis' b cis b a g fis e8. d16 e fis g e
+    b fis' b cis b a g fis e8. dis16 e fis g e
     
     % 117
     a, e' a b a g fis e d8. cis16 d e fis d
