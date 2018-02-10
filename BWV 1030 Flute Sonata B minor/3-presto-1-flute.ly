@@ -193,7 +193,7 @@
     e8 g fis e dis cis b a
     
     % 58
-    g4 c b dis
+    g4 c( b) dis
     
     % 59
     e g c,2~
@@ -237,10 +237,10 @@
     cis d' cis b a g fis e
     
     % 72
-    d4 g fis ais
+    d4 g( fis) ais
     
     % 73
-    d8 cis d2 d4~
+    b8 cis d2 d4~
     
     % 74
     d4 c8 b c2

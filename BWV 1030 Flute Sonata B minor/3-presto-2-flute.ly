@@ -74,11 +74,11 @@
     d16 b gis fis eis fis cis'8 gis16 \appoggiatura fis8 eis8 r16
     
     % 19
-    r8. r8 b16 a( gis fis) d'( cis b)
+    r8. r8 b16 a gis fis d'( cis b)
     
     % 20
     % 2nd system starts on 2nd beat
-    b a gis gis' a b cis eis, fis fis,8 r16
+    b a gis gis' a b cis eis,( fis) fis,8 r16
     
     % 21
     r2.
@@ -104,7 +104,7 @@
     
     % 28
     % 4th system starts here
-    gis8. r8 e16 e a cis gis a eis
+    \appoggiatura fis8 gis8. r8 e16 e a cis gis a eis
     
     % 29
     d'8 d,16 fis8 b16 cis8 cis,16 fis8 a16
@@ -113,7 +113,7 @@
     b8 d16 fis,8 d'16 a8 cis16 fis,8 cis'16
     
     % 31
-    d,8 b'16 eis,8 fis16 eis dis cis gis'8.~
+    d,8 b'16 eis,8 fis16 eis( dis cis) gis'8.~
     
     % 32
     % 5th system starts here
@@ -219,7 +219,7 @@
     b ais b e d cis b ais b d cis b
     
     % 63
-    cis e a fis e d cis b ais g' fis e
+    cis e g fis e d cis b ais g' fis e
     
     % 64
     d8 fis'16 fis, b ais b8.~ b8

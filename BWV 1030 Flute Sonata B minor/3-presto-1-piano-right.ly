@@ -83,10 +83,10 @@
     cis d cis d b cis b cis
     
     % 23
-    ais b' ais g fis e d cis
+    ais b' ais gis fis e d cis
     
     % 24
-    b cis' b a g fis e d
+    b c' b a g fis e d
     
     % 25
     cis d' cis b a g fis e
@@ -127,7 +127,7 @@
     gis a gis a fis gis fis gis
     
     % 37
-    eis fis eis d cis b a gis
+    eis fis eis dis cis b a gis
     
     % 38
     fis g' fis e d cis b a
@@ -159,7 +159,7 @@
     
     % 47
     % 4th system starts on 3rd beat
-    a'4 g8 a b cis d b
+    r4 g'8 a b cis d b
     
     % 48
     cis b a b cis dis e cis
