@@ -298,7 +298,7 @@
     \tuplet 3/2 8 { e16 g f e c d e g f e c d e g f e d c b a b c d e }
     
     % 67 4th page 5th system from bach's score starts here
-    \tuplet 3/2 8 { d f e d c b a gis fis? gis a b c e d c b a g fis e fis g a }
+    \tuplet 3/2 8 { d f e d c b a \set suggestAccidentals = ##t gis \set suggestAccidentals = ##f fis? \set suggestAccidentals = ##t gis! \set suggestAccidentals = ##f a b c e d c b a \set suggestAccidentals = ##t g \set suggestAccidentals = ##f fis e fis g a }
     
     % 68
     % on second beat, c is natural _but_ d has no alteration so it's coming from the key so it's d

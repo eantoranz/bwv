@@ -82,7 +82,7 @@
     
     % 21
     % g on 3rd beat is on Bach's and Kirnberger's manuscripts
-    d'32( cis b16) \appoggiatura b8 cis8~ cis16 b32( cis d cis b ais) b32( ais gis16) fis8~ fis16 gis32( ais b16 cis)
+    d'32( cis b16) \appoggiatura b8 cis8~ cis16 b32( cis d cis b ais) b32( ais \set suggestAccidentals = ##t gis16) \set suggestAccidentals = ##f fis8~ fis16 gis!32( ais b16 cis)
     
     % 22 2nd page 1st system from bach's score starts here
     % Articulation on beat 2 is on JS Bach's manuscript
