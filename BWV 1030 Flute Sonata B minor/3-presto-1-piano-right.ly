@@ -83,10 +83,10 @@
     cis d cis d b cis b cis
     
     % 23
-    ais b' ais gis fis e d cis
+    ais b' ais \set suggestAccidentals = ##t gis \set suggestAccidentals = ##f fis e d cis
     
     % 24
-    b c' b a g fis e d
+    b \set suggestAccidentals = ##t c' \set suggestAccidentals = ##f b a g fis e d
     
     % 25
     cis d' cis b a g fis e
@@ -127,7 +127,7 @@
     gis a gis a fis gis fis gis
     
     % 37
-    eis fis eis dis cis b a gis
+    eis fis eis \set suggestAccidentals = ##t dis \set suggestAccidentals = ##f cis b a gis
     
     % 38
     fis g' fis e d cis b a
