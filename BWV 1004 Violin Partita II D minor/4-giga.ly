@@ -25,7 +25,7 @@
     cis( e) a e'( f) g f a16( g f e) d8( a) f
     
     % 3
-    % 2nd pentagram from Bach's manuscript starts on 3rd measure
+    % 2nd pentagram from Bach's manuscript starts on 3rd beat
     d f'16 e d f bes a g f e d c d e d c e a g f e d c
     
     % 4
@@ -42,7 +42,7 @@
     bes( a bes) d e, g a( g a) c d, f g( f g) bes c, e f( e f) a g f
     
     % 8
-    % 4th pentagram from bach's manuscript starts on 3rd measure
+    % 4th pentagram from bach's manuscript starts on 3rd beat
     e d e f e d c bes c d c bes a( bes c) f c a f( g a) c a f
     
     % 9
@@ -59,14 +59,14 @@
     bes,\f( d f) a bes d e,( d e) d' e, d' a,( c e) g a c d,( c d) c' d, c'
     
     % 13
-    % 6th pentagram from bach's manuscript starts on 3rd measure
+    % 6th pentagram from bach's manuscript starts on 3rd beat
     g,( bes d) f g bes c,( bes c) bes' c, bes' f,( a c) e f a c,( bes c) a' f d
     
     % 14
     bes a bes c d bes g f g a bes g e d e f g e c e g c e8~
     
     % 15
-    % 7th pentagram from bach's manuscript starts on 4th measure (starts another page)
+    % 7th pentagram from bach's manuscript starts on 4th beat (starts another page)
     e16 bes( a g f e d cis b a) g' e f d f a d cis d a d f b a
     
     % 16
@@ -83,7 +83,7 @@
     c( d e) b c a b( c d) a b gis a a, cis e g8~ g16 e cis a cis e
     
     % 20
-    % 9th pentagram from bach's manuscript starts on 2nd measure
+    % 9th pentagram from bach's manuscript starts on 2nd beat
     f d f a d cis d a d f a gis a e cis a e cis a4
     
     \bar ":..:"
@@ -104,42 +104,42 @@
     bes d( c bes a g) c' bes a g fis e d( e fis) a g f ees d c bes a g
     
     % 25
-    % 11th pentagram from bach's manuscript starts on 2nd measure
+    % 11th pentagram from bach's manuscript starts on 2nd beat
     fis( a d) fis a c d,( c d) c' d, c' g,( bes d) fis g bes d,( c d) bes' d, bes'
     
     %26
     fis,(\p a d) fis a c d,( c d) c' d, c' g,( bes d) fis g bes d,( c d) bes' d, bes'
     
     % 27
-    % 12th pentagram from bach's manuscript starts on 3rd measure
+    % 12th pentagram from bach's manuscript starts on 3rd beat
     c,,( ees g) bes c ees f,( ees f) ees' f, ees' bes,( d f) a bes d ees,( d ees) d' ees, d'
     
     % 28
     a,( c ees) g a c d,( c d) c' d, c' g,( bes d) fis g bes d,( fis g) bes d g
     
     % 29
-    % 13th pentagram from bach's manuscript starts on 3rd measure
+    % 13th pentagram from bach's manuscript starts on 3rd beat
     ees d ees f g ees c bes c d ees c a g a bes c a fis a d fis a c
     
     % 30
     bes( a) c bes( a g) d g fis g a fis g ees( d c bes a) bes g a bes c d
     
     % 31
-    % 14th pentagram from bach's manuscript starts on 3rd measure
+    % 14th pentagram from bach's manuscript starts on 3rd beat
     e( f g) e bes e c,( e g) bes a g a( bes c) a f a bes,( d f) a f d
     
     % 32
     cis'( d e) cis g cis a,( cis e) g f e f d f a d cis d a d f a c,
     
     % 33
-    % 15th pentagram from bach's manuscript starts on 4th measure
+    % 15th pentagram from bach's manuscript starts on 4th beat
     bes a'( g f e d) c d e f g bes, a g'( f e d c) bes c d e f a,
     
     % 34
     g f'( e d cis b) a b cis d e g, f a d a f a d, f a f d f
     
     % 35
-    % 16th pentagram from bach's manuscript starts on 4th measure
+    % 16th pentagram from bach's manuscript starts on 4th beat
     bes,( f' d') f e cis a,( f' d') f e cis g,( f' d') f e d bes' a( g f e d)
     
     % 36

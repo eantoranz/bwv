@@ -49,7 +49,7 @@
     e,,8. c'16 g'8. bes16 a8. g16
     
     % 11
-    % 3rd pentagram from bach's manuscript starts on 2nd measure
+    % 3rd pentagram from bach's manuscript starts on 2nd beat
     \tuplet 3/2 4 { a8( g f) e( f g) c,( d e) }
     
     % 12
@@ -65,7 +65,7 @@
     cis8. e16 a8. g'16 f8. e16
     
     % 16
-    % 4th pentagram from Bach's manuscript starts on 3rd measure
+    % 4th pentagram from Bach's manuscript starts on 3rd beat
     \tuplet 3/2 4 { f8( a, g f e d c b a }
     
     %17
@@ -81,7 +81,7 @@
     \tuplet 3/2 4 { c( e a) c( e a) b( gis a) }
     
     % 21
-    % 5th pentagram from bach's manuscript starts on 2nd measure
+    % 5th pentagram from bach's manuscript starts on 2nd beat
     \tuplet 3/2 4 { f( cis d) bes( gis a) f( cis d) }
     
     % 22
@@ -101,7 +101,7 @@
     < a, cis e >4 \tuplet 3/2 4 { gis8( f' e) d( cis b) }
     
     % 26
-    % 6th pentagram from bach's manuscript starts on 2nd measure
+    % 6th pentagram from bach's manuscript starts on 2nd beat
     \tuplet 3/2 4 { cis( a e) a, bes'( a g f e) }
     
     % 27

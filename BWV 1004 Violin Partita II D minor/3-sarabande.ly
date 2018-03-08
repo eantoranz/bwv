@@ -44,7 +44,7 @@
         >>
         
         % 6
-        % 2nd pentagram from Bach's manuscript starts on 2nd measure
+        % 2nd pentagram from Bach's manuscript starts on 2nd beat
         <<
             { g,16( e' cis') bes' a4. cis,8 }
             \\
@@ -191,7 +191,7 @@
         }
         {
             % 26
-            % 6th pentagram from Bach's manuscript starts on 2nd measure
+            % 6th pentagram from Bach's manuscript starts on 2nd beat
             d'16 d, f a g( f e d c bes) c( a)
         }
     }
