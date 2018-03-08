@@ -106,7 +106,7 @@
     >>
     
     % 12
-    % 3rd pentagram starts on 2nd measure
+    % 3rd pentagram starts on 2nd beat
     <<
         { < d' f >8 }
         \\
@@ -150,7 +150,7 @@
     >>
     
     % 17
-    % 4th pentagram from bach's manuscript starts on 3rd measure
+    % 4th pentagram from bach's manuscript starts on 3rd beat
     <<
         { e'8. bes'16 a8. g16 a8. fis16 }
         \\
@@ -186,7 +186,7 @@
     >>
     
     % 22
-    % 5th pentagram from bach's manuscript starts on 3rd measure
+    % 5th pentagram from bach's manuscript starts on 3rd beat
     <<
         { g'8. f16 e8. d32 cis d8. e16 }
         \\
@@ -263,7 +263,7 @@
     f16 d f a d( f bes) a gis b g e
     
     % 37
-    % 8th pentagram from bach's manuscript starts on 3rd measure
+    % 8th pentagram from bach's manuscript starts on 3rd beat
     cis( e a) g fis a fis c a fis d c
     
     % 38
@@ -276,7 +276,7 @@
     f d e f g a b cis d f, e d
     
     % 41
-    % 9th pentagram from bach's manuscript starts on 3rd measure
+    % 9th pentagram from bach's manuscript starts on 3rd beat
     a( e' d') cis d,( fis a) c c bes c a
     
     % 42
@@ -318,7 +318,7 @@
     e, c, e g c g c e a, f'( g a)
     
     % 54
-    % 12th pentagram from bach's manuscript starts on 2nd measure
+    % 12th pentagram from bach's manuscript starts on 2nd beat
     d, bes, d f bes f bes d g, e'( f g)
     
     % 55
@@ -375,7 +375,7 @@
     >> g16 e' b' g'
     
     % 63
-    % 14th pentagram from bach's manuscript starts on 2nd measure
+    % 14th pentagram from bach's manuscript starts on 2nd beat
     a,, e' cis' g' a,, f' d' f a,, g' cis e
     
 
@@ -418,7 +418,7 @@
     cis, bes'( a g f e d c) bes( a g f e d cis b) a( b cis d e f g e)
     
     % 72
-    % 17th pentagram from bach's manuscript starts on 3rd measure
+    % 17th pentagram from bach's manuscript starts on 3rd beat
     f d e f g a b cis d b cis d e f g a bes16 d,, c\trill bes
     
     % 73
@@ -428,7 +428,7 @@
     bes32 d e fis g a bes c d g, a bes c d e fis g a bes a g f e d
     
     % 75
-    % 18th pentagram from bach's manuscript starts on 3rd measure
+    % 18th pentagram from bach's manuscript starts on 3rd beat
     cis a' g f e d cis b a b cis d e f g a bes g e cis a g f e
     
     % 76
@@ -461,11 +461,11 @@
     f32( a b cis) d( cis b a) f'( e d cis) d( e f g) a( g f e) bes'( a g f)
     
     % 85
-    % Changed to G on 1st? seems like it starts midway of the 2nd measure
+    % Changed to G on 1st? seems like it starts midway of the 2nd beat
     c( e fis gis) a( gis fis e) c'( b a gis) a( b c d) e( d c b) f'( e d cis)
     
     % 86
-    % 21st pentagram from bach's manuscript starts on 2nd measure
+    % 21st pentagram from bach's manuscript starts on 2nd beat
     d( e f e) d( f e d) f( e d f) e( d f e) d( g f e d c bes a)
     
     % 87
@@ -712,7 +712,7 @@
     c8 e'32( d c d c bes c bes a bes a g a bes c d ees16) c,
     
     % 122
-    % 26th pentagram from bach's manuscript starts from 3rd measure
+    % 26th pentagram from bach's manuscript starts from 3rd beat
     bes8 d'32( c bes c bes a bes a g a g f g a bes c d16) bes,
     
     % 123
@@ -874,7 +874,7 @@
     >>
     
     % 147
-    % 30th pentagram from bach's manuscript starts on 2nd measure
+    % 30th pentagram from bach's manuscript starts on 2nd beat
     <<
         { g' fis e2 }
         \\
@@ -925,7 +925,7 @@
     a b cis d e cis a cis e g fis e
     
     % 156
-    % 31st pentagram from bach's manuscript starts on 3rd measure
+    % 31st pentagram from bach's manuscript starts on 3rd beat
     fis d a d fis d a' fis d' a fis' d
     
     % 157
@@ -941,7 +941,7 @@
     fis d a'' a a fis d a fis d a d
     
     % 161
-    % 32nd pentagram from bach's manuscript starts on 2nd measure
+    % 32nd pentagram from bach's manuscript starts on 2nd beat
     e cis a'' a a e cis a e cis a cis
     
     % 162
@@ -1028,7 +1028,7 @@
     >>
     
     % 173
-    % 35th pentagram from bach's manuscript starts from 3rd measure
+    % 35th pentagram from bach's manuscript starts from 3rd beat
     <<
         { d'16 r8. r16 d' d d d c c c }
         \\
@@ -1182,7 +1182,7 @@
     >>
     
     % 193
-    % 38th pentagram from bach's manuscript starts on 2nd measure
+    % 38th pentagram from bach's manuscript starts on 2nd beat
     < e d' g >4 < fis d' a' >4. < fis d' a' >8
     
     % 194
@@ -1311,7 +1311,7 @@
     >>
     
     % 213
-    % 41st pentagram from bach's manuscript starts on 3rd measure
+    % 41st pentagram from bach's manuscript starts on 3rd beat
     <<
         { f'8. d,16 g bes ees d ees( c f,) a, }
         \\
@@ -1339,7 +1339,7 @@
     e,( g cis) a' g d( cis d) e, d'( cis d)
     
     % 218
-    % 42nd pentagram from bach's manuscript starts on 2nd measure
+    % 42nd pentagram from bach's manuscript starts on 2nd beat
     f,( a cis) bes' a d,( cis d) f, d'( cis d)
     
     % 219
@@ -1422,7 +1422,7 @@
     >>
     
     % 235
-    % 46th pentagram from bach's manuscript starts on 2nd measure
+    % 46th pentagram from bach's manuscript starts on 2nd beat
     <<
         { s16[ a s a] s[ a s a] s[ a s a] }
         \\
@@ -1459,7 +1459,7 @@
     >>
     
     % 239
-    % 47th pentagram from bach's manuscript starts on 2nd measure
+    % 47th pentagram from bach's manuscript starts on 2nd beat
     <<
         { s16[ a' s a] s[ a s a] s[ a s a] }
         \\
@@ -1479,7 +1479,7 @@
     \tuplet 3/2 8 { e( c' bes') c,,( e g) e( g c) g( c e) a,( c f) f,( c' a') }
     
     % 242
-    % 48th pentagram from bach's manuscript starts on 3rd measure (another page)
+    % 48th pentagram from bach's manuscript starts on 3rd beat (another page)
     \tuplet 3/2 8 { d,,( bes' a') bes,,( d f) d( f bes) f( bes d) g,( bes ees) ees,( bes' g') }
 
     % 243
@@ -1489,7 +1489,7 @@
     \tuplet 3/2 8 { d, a''( g f) f( e d) d( c bes) bes( a g) bes( c d e f) }
     
     % 245
-    % 49th pentagram from bach's manuscript starts on 3rd measure (another page)
+    % 49th pentagram from bach's manuscript starts on 3rd beat (another page)
     \tuplet 3/2 8 { c, g''( f e) e( d c) c( bes a) a( g f) a( bes c d ees) }
     
     % 246

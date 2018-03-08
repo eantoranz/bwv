@@ -27,11 +27,11 @@
     f16( cis) d( a) bes( d) f( g) cis, a cis e \tuplet 3/2 8 { a( g f) g( f e) }
     
     % 3
-    % 2nd pentagram from Bach's manuscript starts on 3rd measure
+    % 2nd pentagram from Bach's manuscript starts on 3rd beat
     f d f a \tuplet 3/2 8 { bes( a g) a( g f) }e g bes d \tuplet 3/2 8 { c( bes a) bes( a g) }
     
     % 4
-    % last measure has what seems to be chords.... all other manuscripts don't have them so I won't include them
+    % last beat has what seems to be chords.... all other manuscripts don't have them so I won't include them
     a f a c f( g a) c, d a bes d g( a bes) d,
     
     % 5
@@ -68,7 +68,7 @@
     gis( b32 a gis16) f32( e d16) f32( e d16) b32( a gis16) b( e) gis b e, d'( c32 b)
     
     % 15
-    % 5th pentagram from Bach's manuscript starts on 4th measure
+    % 5th pentagram from Bach's manuscript starts on 4th beat
     c16( b32 a gis16 a) \tuplet 3/2 8 { c,( d e) d c b } a8. b16 cis d e g,
     
     % 16
@@ -96,7 +96,7 @@
     fis c32( d ees16 d) c( bes32 a d16) c bes( c32 d ees16) g a,( bes32 c d16) f
     
     % 21
-    % 7th pentagram from Bach's manuscript starts on 4th measure
+    % 7th pentagram from Bach's manuscript starts on 4th beat
     g,( a32 bes c16) ees f,( g32 a bes16) d ees,( g'32 f ees16) c32( bes a16) c32( bes a16) fis32( e
     
     % 22
@@ -106,7 +106,7 @@
     g8. a16 bes c d f,e c e g bes( e32 f g16) bes,
     
     % 24
-    % 8th pentagram from Bach's manuscript starts on 4th measure
+    % 8th pentagram from Bach's manuscript starts on 4th beat
     a f a c f a, g f c g' c d e bes a g
     
     % 25
@@ -129,7 +129,7 @@
     e( g bes) d c a fis c' bes a g f ees d ees g
     
     % 31
-    % 10th pentagram from Bach's manuscript starts on 2nd measure
+    % 10th pentagram from Bach's manuscript starts on 2nd beat
     bes( a bes) ees g( fis g) bes cis,( a32 b cis16) e g, bes32( a g16) f32( e
     
     % 32
