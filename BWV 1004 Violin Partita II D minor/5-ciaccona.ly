@@ -591,10 +591,10 @@
     >>
     
     % 103
-    < d f a f' >4 < g, e' cis' >2
+    < d f a f' >4 < a e' cis' >2
     
     % 104
-    < d' f d' >4 < d d a' f' > < d a' c f >
+    < d f d' >4 < d d a' f' > < d a' c f >
     
     % 105
     <<
