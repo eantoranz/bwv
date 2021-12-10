@@ -478,7 +478,7 @@
     < d e g' > < e cis' g' >4
     
     % 90
-    < d e f' >2 < d a' f' >4
+    < d d f' >2 < d a' f' >4
     
     % 91
     % 22nd pentagram from bach's manuscript starts here
