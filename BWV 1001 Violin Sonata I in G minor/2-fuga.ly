@@ -22,13 +22,13 @@
     \accidentalStyle forget
     
     % 1
-    r8-\markup allegro d' d d d c16 bes c8 a
+    r8-\markup Allegro d' d d d c16 bes c8 a
     
     % 2
     <<
-        { bes r ees r aes, r d r }
+        { bes r ees r a, r d r }
         \\
-        { r g, g g g f16 ees f8 d }
+        { r g, g g g f16 e f8 d }
     >>
     
     % 3
@@ -37,7 +37,7 @@
         \\
         { d r c r bes r a r }
         \\
-        { ees s ees s d s d s }
+        { ees s \once\omit Accidental ees s d s d s }
     >>
     
     % 4
@@ -52,18 +52,18 @@
     % 5
     % 2nd pentagram starts here
     <<
-        { s2. bes''8 }
+        { s2. bes''8 r }
         \\
-        { \stemUp d,8 c16 bes c8 a bes r d r }
+        { \stemUp d,8 c16 bes c8 a bes r d }
         \\
-        { ees, s fis s g f!16 ees f8 d }
+        { e, s fis s g f!16 ees f8 d }
         \\
         { a r d r g, }
     >>
     
     % 6
     <<
-        { bes''8 a16 g a fis g8 fis16 }
+        { bes''8 a16 g a( fis) g8 fis16 }
         \\
         { c8 s s4 c16 ees d c bes g' a, g }
         \\
@@ -97,23 +97,31 @@
     <<
         { aes'16 g( aes) fis g8 f! ees d c bes }
         \\
-        { bes s bes b! g16( f) f( ees) ees d d c }
+        { bes s bes b! g16( f) f( ees) \once\omit Accidental ees d d c }
         \\
         { d8 r ees d c }
     >>
     
     % 13
-    aes'16( fis) fis( g) g bes, a g a g' c ees d, g a fis
+    <<
+        { aes'16( fis) \once\omit Accidental fis( g) g bes, a g a g' c ees d, g a fis }
+        \\
+        { c8 }
+    >>
     
     % 14
     % 5th pentagram starts on 2nd beat
-    g8 d'' d d d c16 bes c8 a
+    <<
+        { g'8 d'' d d d c16 bes c8 a }
+        \\
+        { g,,8 }
+    >>
     
     % 15
     <<
-        { bes8 r ees r a, r d }
+        { bes''8 r ees r a, r d4 }
         \\
-        { r8 g, g g g f16 ees f8 d }
+        { r8 g, g g g f16 ees f8( d) }
     >>
     
     % 16
@@ -127,7 +135,7 @@
     <<
         { a8 r d r g, s c4 }
         \\
-        { g8 f f f f ees16 d ees8 c }
+        { g8 f f f f ees16 d ees8( c) }
     >>
     
     % 18
@@ -190,9 +198,9 @@
     <<
         { d''8 r cis8. d16 d8 }
         \\
-        { f,16 e d e e8. d16 d8 d d }
+        { f,16 e d e e8. d16 d8 d d s }
         \\
-        { g,8 s8 s4 s d'8 d }
+        { a8 s s4 s d8 d }
     >>
     
     % 25
@@ -207,9 +215,9 @@
     <<
         { g'8 f16 ees f8 d r c' c c }
         \\
-        { s8 r s r ees, r e! r }
+        { s8 r r s ees, r e! r }
         \\
-        { a,8 s bes s c s a  }
+        { a,8 s s b c s a s }
     >>
     
     % 27
@@ -276,9 +284,9 @@
     <<
         { d'8 bis'16( gis) a8 cis d( c!) c( bes) }
         \\
-        { f,8 r r a f' r fis r }
+        { f,8 r r g' f r fis r }
         \\
-        { a,,8 s s4 bes'8 s a }
+        { a,,8 s s a' bes8 s a }
     >>
     
     % 34
@@ -286,6 +294,8 @@
         { bes'8 a a( cis) \once\omit Accidental cis( d) d g, }
         \\
         { g8 f f e e( f) f( cis) }
+	\\
+	{ g8 }
     >>
     
     % 35
@@ -294,7 +304,7 @@
         \\
         { s4. d8 d2 }
         \\
-        { c8( a) d g, a g a f }
+        { \stemDown c8( a) d g, a g a f }
     >>
     
     % 36
@@ -422,7 +432,7 @@
     % 55
     % 16th pentagram (4th in 2nd page) starts on 2nd beat
     <<
-        { c'8 c, c c d r r ees }
+        { c'8 c, c c d r r e! }
         \\
         { ees8 }
         \\
@@ -474,7 +484,7 @@
     <<
         { a''8 bes16( f) g8 a16( g) f8 g16 d ees c a f }
         \\
-        { e'8 d d c c bes }
+        { e'8( d) d c c bes s s }
         \\
         { f8 s ees s d }
         \\
@@ -485,7 +495,7 @@
     <<
         { r8 d' d d d ees16 d c8 bes }
         \\
-        { r8 f f f f g16 f ees8 d }
+	{ r8 f f f f g16 f ees8 d } % failing to render flat on e (FIXME looks like a lilypond bug)
         \\
         { bes8 bes bes a g s a bes }
         \\
@@ -496,7 +506,7 @@
     <<
         { a'8 f' f f f g16 f ees8 d }
         \\
-        { ees,8 bes' bes bes bes r f f }
+	{ ees,8 bes' bes bes bes r f f } % Just like in 61, first ees fails to be rendered (FIXME looks like a lilypond bug)
         \\
         { c8 d d d d s a bes }
         \\
@@ -510,7 +520,7 @@
         \\
         { d8 r c r r bes s r }
         \\
-        { ees,8 s s4 s8 d f }
+	{ ees,8 s s4 s8 d f } % This e flat renders fine.
     >>
     
     % 64
@@ -568,7 +578,7 @@
     % 76
     % FIXME not really sure of this bar
     <<
-        { fes'8( g) g( e!) e( f) f( d) }
+        { fis'8( g) g( e!) e( f) f( d) }
         \\
         { c!8 r bes r bes r a r }
         \\
@@ -607,7 +617,7 @@
     <<
         { r8 d' d d d c16 b c8 a' }
         \\
-        { s8 r f, r ees \once\omit Accidental ees16 d ees8 r }
+        { s8 r f,! r ees \once\omit Accidental ees16 d! ees8 r }
         \\
         { bes8 s b! s c }
     >>
@@ -649,6 +659,8 @@
         { f,8 s f d' d c16 bes c8 c }
         \\
         { a,8 bes16( a) bes8 d ees s s ees }
+	\\
+	{ s2 s8 r r }
     >>
     
     % 85
@@ -685,26 +697,26 @@
     % which connects with the last pentagram of the 2nd page of the manuscript
     g, ees' g b c ees aes, g a, c fis a c ees fis a
     
-    % 89
+    % 90
     bes,, d g bes d fis g bes c,, ees g c ees g a c
     
-    % 90
+    % 91
     % this bar is broken between 1st and 2nd page
     d,, c'' bes d, cis bes' a cis, b a' g bes,! a g' f aes,
     
-    % 91
+    % 92
     g f' ees g, fis ees' d f,! e! d'( c b c) ees,( d c)
     
-    % 92
+    % 93
     <<
-        { fis'4.~ fis64( g a fis a g c, d ees c d ees a, bes c a bes c fis, g a fis g a) r8 g' }
+        { fis'4.~ fis64( g a fis g a c, d ees c d ees a, bes c a bes c fis, g a fis g a) r8 g' }
         \\
         { c,4. }
         \\
         { \stemDown d,4. s8 s4 d8 cis' }
     >>
     
-    % 93
+    % 94
     <<
         { g'16~ g32( a g fis e fis) \once\omit Accidental fis8.\trill g16 g2 }
         \\

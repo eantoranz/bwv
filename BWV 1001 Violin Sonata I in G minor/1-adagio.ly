@@ -127,7 +127,7 @@
     
     % 11
     <<
-        { b'16( d) d( c) ees( d) d( ees!) \grace e16 d16. bes32 c( d ees! f64 g) aes16( bes, d, aes''!) }
+        { b'16( d) d( c) ees( d) d( ees!) \grace e16 d16. bes32( c d ees! f64 g) aes16( bes, d, aes''!) }
         \\
         { d,,8 ees f g f }
         \\
@@ -138,9 +138,9 @@
     <<
         { ees'16 aes'( g8) des8 ees,32( g bes des) aes,16 c' aes' g32( f) ees8( d16.) \trill ees32 }
         \\
-        { s2 c8 s f, }
+        { s2 s8 c s f, }
         \\
-        { s2 f8 s bes, }
+        { s2 s8 f s bes, }
     >>
     
     % 13
@@ -153,16 +153,15 @@
     >>
     b32( d f aes b d f aes64 g)
     <<
-        g16
+        { g16~ g32 aes64( g fis g d ees b c fis,32) g ees'16 d( c64\trill b c16) }
         \\
-        c,
+        { c }
         \\
-        ees,
+        { ees, }
     >>
-    g'32 aes64( g fis g d ees b c fis,32) g ees'16 d( c64\trill b c16)
     
     % 14
-    c16. bes64( aes g32 f ees d) c( b c g c ees g c) d,16( c'32 f) b,8~\trill b32 a( g a b c d f64 ees)
+    c'16. bes64( aes g32 f ees d) c( b c g c ees g c) d,16( c'32 f) b,8~\trill b32 a( g a b c d f64 ees)
     
     % 15
     <<
@@ -192,9 +191,9 @@
         \\
         { c,8( b) d d s4 r8 ees }
         \\
-        { d,8 s r g s4 s8 g }
+        { d,8 s s g s4 s8 g }
         \\
-        { g,8 s s b c s r c }
+        { g,8 s r b c s r c }
     >>
     
     % 18
@@ -208,7 +207,7 @@
     
     % 19
     <<
-        { f'32( g aes fis) d8 bes,16. d'32( c bes a bes64 g) a,16( g' c) a g( fis d) c' }
+        { f'32( g a fis) d8 bes,16. d'32( c bes a bes64 g) a,16( g' c) a g( fis d) c' }
         \\
         { a16 }
     >>

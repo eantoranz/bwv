@@ -106,81 +106,84 @@
     d,( ees f) bes a bes
     
     % 28
-    a,( c ees) g f ees    
+    ees,( f g) bes a bes
     
     % 29
-    d( bes) ees( bes) f' aes,
+    a,( c ees) g f ees    
     
     % 30
-    g( a! bes) d, c a'
+    d( bes) ees( bes) f' aes,
     
     % 31
+    g( a! bes) d, c a'
+    
+    % 32
     % 5th pentagram (1st in 2nd page) starts here
     bes, d( c bes a g
     
-    % 32
+    % 33
     a) g'( fis e d) c'(
     
-    % 33
+    % 34
     bes a g) f'( e d
     
-    % 34
-    cis) bes( a g f e)
-    
     % 35
-    f( d) g( d) a' c,
+    cis) bes'( a g f e)
     
     % 36
-    bes a'( g f e d)
+    f( d) g( d) a' c,
     
     % 37
-    e( c) f( c) g' bes,
+    bes a'( g f e d)
     
     % 38
-    a g'( f e d cis)
+    e( c) f( c) g' bes,
     
     % 39
-    d( bes) ees( bes) f' a,
+    a g'( f e d cis)
     
     % 40
+    d( bes) e( bes) f' a,
+    
+    % 41
     % 6th pentagram (2nd in 2nd page) starts here
     g f'( e d cis b)
     
-    % 41
+    % 42
     cis( a) d( a) e' g,
     
-    % 42
+    % 43
     f d' bes g e c'
     
-    % 43
-    d bes' g e c a'
-    
     % 44
-    bes, g' e cis a f'
+    d, bes' g e c a'
     
     % 45
-    g, f'( e d cis b)
+    bes, g' e cis a f'
     
     % 46
-    a d cis( e) d( f)
+    g, f'( e d cis b)
     
     % 47
-    a, e' d( f) e( g)
+    a d cis( e) d( f)
     
     % 48
+    a, e' d( f) e( g)
+    
+    % 49
     % 7th pentagram (3rd in 2nd page) starts here
     a, f' e( g) f( a)
     
-    % 49
+    % 50
     bes, g' fis( a) g( bes)
     
-    % 50
+    % 51
     cis, bes'( a g f e)
     
-    % 51
+    % 52
     f d f a d f
     
-    % 52
+    % 53
     <<
 	    { a d, a8 cis }
 	    \\
@@ -189,7 +192,7 @@
 	    { s4 a,8 }
     >>
     
-    % 53
+    % 54
     <<
 	    { d'4. }
 	    \\
@@ -200,256 +203,256 @@
     
     \bar ":..:"
     
-    % 54
+    % 55
     d16 a d fis d fis
     
-    % 55
+    % 56
     a fis a d a d
     
-    % 56
+    % 57
     fis d fis a fis a
     
-    % 57
+    % 58
     % 8th pentagram (4th in 2nd page) starts here
     d a fis d a fis
     
-    % 58
+    % 59
     d( e fis g a bes
     
-    % 59
+    % 60
     c) ees c a c a
     
-    % 60
+    % 61
     fis d fis a d c
     
-    % 61
+    % 62
     bes d bes g d bes
     
-    % 62
+    % 63
     g( a bes c d ees
     
-    % 63
+    % 64
     f) aes f d f d
     
-    % 64
+    % 65
     b g b d g f
     
-    % 65
+    % 66
     % 9th pentagram (5th in 2nd page) starts here
     ees c ees g c d
     
-    % 66
+    % 67
     ees c aes f aes c
     
-    % 67
+    % 68
     d bes g ees g bes
     
-    % 68
+    % 69
     c aes f d f aes
     
-    % 69
+    % 70
     g, c' b( c d) f,
     
-    % 70
+    % 71
     c f' ees( f g) bes,
     
-    % 71
+    % 72
     f bes aes( bes c) ees,
     
-    % 72
+    % 73
     bes ees' d( ees f) aes,
     
-    % 73
+    % 74
     % 10th pentagram (6th in 2nd page) starts here
     ees aes g( aes bes) des,
     
-    % 74
+    % 75
     aes( c f aes g f)
     
-    % 75
+    % 76
     b,( d f aes g f)
     
-    % 76
+    % 77
     c( e! f aes g f)
     
-    % 77
+    % 78
     d( f b c d f,)
     
-    % 78
+    % 79
     ees( g c d ees c)
     
-    % 79
+    % 80
     aes'( g f ees d c)
     
-    % 80
+    % 81
     g' d ees c g b
     
-    % 81
+    % 82
     % 11th pentagram (7th in 2nd page) starts here
     c, f( ees d c bes)
     
-    % 82
+    % 83
     a c f c f a
     
-    % 83
+    % 84
     f a c a c ees
     
-    % 84
+    % 85
     c ees a( g f ees)
     
-    % 85
+    % 86
     d( c bes c d e!)
     
-    % 86
+    % 87
     fis a c a fis a
     
-    % 87
+    % 88
     fis c fis c a c
     
-    % 88
+    % 89
     a fis a fis d c'
     
-    % 89
+    % 90
     bes g bes g e! d'
     
-    % 90
+    % 91
     % 12th pentagram (8th in 2nd page) starts here
     c a c a fis ees'
     
-    % 91
+    % 92
     d bes d bes g f'
     
-    % 92
+    % 93
     ees c \once\omit Accidental ees c a g'
     
-    % 93
+    % 94
     fis( d e fis g a)
     
-    % 94
+    % 95
     bes d, g bes c, ees
     
-    % 95
+    % 96
     a f d bes d f
     
-    % 96
+    % 97
     g bes, ees g a, c
     
-    % 97
+    % 98
     f d bes g bes d
     
-    % 98
+    % 99
     ees g, c ees f, a
     
-    % 99
+    % 100
     d bes g e! g bes
     
-    % 100
+    % 101
     % 13th pentagram (9th in 2nd page) starts here
     c( a) bes( g) fis a
     
-    % 101
+    % 102
     d,( e fis g a bes)
     
-    % 102
+    % 103
     c( ees) d( g) fis( bes)
     
-    % 103
+    % 104
     a( g fis e d c)
     
-    % 104
+    % 105
     bes ees d( bes) c( a)
     
-    % 105
+    % 106
     f d' c( a) bes( g)
     
-    % 106
+    % 107
     ees c' bes( g) aes( fis)
     
-    % 107
+    % 108
     d bes' a( fis) g( ees)
     
-    % 108
+    % 109
     c a' g( e!) fis( d)
     
-    % 109
+    % 110
     % 14th pentagram (10th in 2nd page) starts here
     bes d'( c bes a g)
     
-    % 110
+    % 111
     ees'( d c) bes'( a g)
     
-    % 111
+    % 112
     fis( g a) d, ees cis
     
-    % 112
-    f,( b d) aes g f
-    
     % 113
-    e! g c e g bes,
+    f,!( b d) aes g f
     
     % 114
-    ees,( a c) g f ees
+    e! g c e g bes,
     
     % 115
-    d f bes d f aes,
+    ees,( a c) g f ees
     
     % 116
-    g ees' bes g ees( d
+    d f bes d f aes,
     
     % 117
-    c) ees' c( bes a g
+    g ees' bes g ees( d
     
     % 118
+    c) ees' c( bes a g
+    
+    % 119
     % 15th pentagram (11th in 2nd page) starts here
     fis) d' a fis d( c
     
-    % 119
+    % 120
     bes) d' bes( a g f
     
-    % 120
+    % 121
     e) c g' bes, a g'
     
-    % 121
+    % 122
     fis d a'c, bes a'
     
-    % 122
+    % 123
     g ees bes' d, c bes'
     
-    % 123
+    % 124
     a f c' ees, d c'
     
-    % 124
+    % 125
     bes g d' f, e! d'
     
-    % 125
+    % 126
     c a ees' g, fis ees'
     
-    % 126
+    % 127
     d bes g' bes, a c
     
-    % 127
+    % 128
     % 16th pentagram (12th in 2nd page) starts here
     bes g fis a d, c
     
-    % 128
+    % 129
     bes g' fis( a) g( bes)
     
-    % 129
+    % 130
     c, a' g( bes) a( c)
     
-    % 130
+    % 131
     d, bes' a( c) bes( d)
     
-    % 131
+    % 132
     ees, c' b( d) c( ees)
     
-    % 132
+    % 133
     fis, ees'( d c bes a)
     
-    % 133
+    % 134
     bes d g bes g d
     
-    % 134
+    % 135
     <<
 	    { bes g d8 fis' }
 	    \\
@@ -458,7 +461,7 @@
 	    { s4 d,8 }
     >>
     
-    % 135
+    % 136
     <<
 	    { g'4. }
 	    \\
@@ -468,8 +471,6 @@
 	    \\
 	    { g,4. }
     >>
-    
-    
     
     \bar ":|." \mark \markup { \musicglyph #"scripts.ufermata" }
     
