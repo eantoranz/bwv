@@ -13,6 +13,11 @@
     
     \time 3/4
     \key d \minor
+    
+    % Bach writes down _all_ accidentals. It appears to me that they are only skipped when used in contiguous notes _but_
+    % I am not completely sure of that and I am not in any way to be considered an authoritative source on the subject.
+    % Therefore I am just trying to match what is _written_ in the manuscript considering the accidental style I am using.
+    \accidentalStyle forget
 
     \partial 8
     a'8
@@ -37,13 +42,13 @@
     c8. a16 f8. c16 a8. ees'16
     
     % 7
-    \tuplet 3/2 4 { d8( bes c d e f g a bes) }
+    \tuplet 3/2 4 { d8 bes( c d e f g a bes) }
     
     % 8
-    \tuplet 3/2 4 { a( f g a bes c d ees c) }
+    \tuplet 3/2 4 { a f( g a bes c d ees c) }
     
     % 9
-    \tuplet 3/2 4 { d( bes c d e f g a bes) }
+    \tuplet 3/2 4 { d bes( c d e f g a bes) }
     
     % 10
     e,,8. c'16 g'8. bes16 a8. g16
@@ -59,14 +64,14 @@
     d,8. fis16 a8. c16 bes8. a16
     
     % 14
-    \tuplet 3/2 4 { bes8( d c bes a g f e d) }
+    \tuplet 3/2 4 { bes8 d( c bes a g f e d) }
     
     % 15
     cis8. e16 a8. g'16 f8. e16
     
     % 16
     % 4th pentagram from Bach's manuscript starts on 3rd beat
-    \tuplet 3/2 4 { f8( a, g f e d c b a }
+    \tuplet 3/2 4 { f8 a,( g f e d c b a }
     
     %17
     \tuplet 3/2 4 { gis) d'' e f( e d) c( d b) }
@@ -85,7 +90,7 @@
     \tuplet 3/2 4 { f( cis d) bes( gis a) f( cis d) }
     
     % 22
-    \tuplet 3/2 4 { gis, b'' a gis f( e d c b) }
+    \tuplet 3/2 4 { gis, b'' a gis f!( e d c b) }
     
     % 23
     \tuplet 3/2 4 { c( e d c b a) e( a gis) }
@@ -93,7 +98,7 @@
     % 24
     a,2~ a8.
     
-    \bar ":..:"
+    \bar ":..:"  \break
     
     e''16
     
@@ -121,7 +126,7 @@
     
     % 32
     % 7th pentagram from bach's manuscript starts here
-    \tuplet 3/2 4 { bes g( a bes c d) ees( d ees) }
+    \tuplet 3/2 4 { bes g( a bes c d) ees( d \once\omit Accidental ees) }
     
     % 33
     \tuplet 3/2 4 { a, f( g a bes c) d( c d) }
@@ -149,7 +154,7 @@
     \tuplet 3/2 4 { g( a g f e d cis b a) }
     
     % 41
-    \tuplet 3/2 4 { f'( g f e d c bes a g) }
+    \tuplet 3/2 4 { f'( g f e d c! bes a g) }
     
     % 42
     % 9th pentagram from bach's manuscript starts here
@@ -180,7 +185,7 @@
     
     % 49
     <<
-        { cis4~ \tuplet 3/2 4 { cis8 d( cis) d( c bes) } }
+        { cis4~ \tuplet 3/2 4 { cis8 d( cis) d( c! bes!) } }
         \\
         { g4. }
         \\
@@ -195,7 +200,7 @@
     
     % 52
     % 11th pentagram from bach's manuscript starts here
-    \tuplet 3/2 4 { cis,8( e g) } bes4~ \tuplet 3/2 4 { bes8 a g }
+    \tuplet 3/2 4 { cis,8( e g!) } bes!4~ \tuplet 3/2 4 { bes8 a g }
     
     % 53
     \tuplet 3/2 4 { f( a cis) d( f a) a,, d cis }
@@ -203,6 +208,6 @@
     % 54
     d2~ d8.
     
-    \bar ":|."
+    \bar ":|." \mark \markup { \musicglyph #"scripts.ufermata" }
 
 }

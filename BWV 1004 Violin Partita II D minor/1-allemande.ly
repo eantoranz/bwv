@@ -14,6 +14,11 @@
     \time 4/4
     \key d \minor
     
+    % Bach writes down _all_ accidentals. It appears to me that they are only skipped when used in contiguous notes _but_
+    % I am not completely sure of that and I am not in any way to be considered an authoritative source on the subject.
+    % Therefore I am just trying to match what is _written_ in the manuscript considering the accidental style I am using.
+    \accidentalStyle forget
+    
     \partial 8 d8
     
     % 1
@@ -58,14 +63,14 @@
     c( d32 e f16) a b,( c32 d e16) g a,( b32 c d16) f g,( a32 b c16) e
     
     % 12
-    f,( g32 a b16) d e,( fis32 gis a16) c d,( cis d) f bes c d bes
+    f,( g32 a b16) d e,( fis32 gis a16) c d,( cis d) f bes! c d bes
     
     % 13
     % 4th pentagram from Bach's manuscript starts here
-    f( e f) bes d e f d bes( a bes) d f( g32 a bes16) a
+    f( e f) bes d e f d bes!( a bes) d f( g32 a bes16) a
     
     % 14
-    gis( b32 a gis16) f32( e d16) f32( e d16) b32( a gis16) b( e) gis b e, d'( c32 b)
+    gis( b32 a gis16) f!32( e d16) f32( e d16) b32( a gis16) b( e) gis b e, d'( c32 b)
     
     % 15
     % 5th pentagram from Bach's manuscript starts on 4th beat
@@ -74,13 +79,13 @@
     % 16
     f( d f a d f gis) d, < a e' cis' a' >4.
     
-    \bar ":..:"
+    \bar ":..:" \break
     
     e''8
     
     % 17
     <<
-        { e8. f16 e d cis b a( g32 a bes16 a) g f e f }
+        { e8. f16 e d cis b a( g32 a bes!16 a) g f e f }
         \\
         { e'8. }
     >>
@@ -100,7 +105,7 @@
     g,( a32 bes c16) ees f,( g32 a bes16) d ees,( g'32 f ees16) c32( bes a16) c32( bes a16) fis32( e
     
     % 22
-    d16) fis( a) c \tuplet 3/2 8 { ees( d c) fis( e d) } bes'( a32 g fis16) g \tuplet 3/2 8 { bes,( c d) c( bes a) }
+    d16) fis( a) c \tuplet 3/2 8 { ees( d c) fis( e! d) } bes'( a32 g fis16) g \tuplet 3/2 8 { bes,( c d) c( bes a) }
     
     % 23
     g8. a16 bes c d f,e c e g bes( e32 f g16) bes,
@@ -120,7 +125,7 @@
     
     % 28
     % 9th pentagram from Bach's manuscript starts here 
-    b( d f) a g e cis g' d,( a' cis) g' f cis d bes
+    b( d f) a g e cis g' d,( a' cis) g' f cis d bes!
     
     % 29
     g( bes d) f ees c a ees' bes,( f' a) ees' d a bes g
@@ -133,8 +138,8 @@
     bes( a bes) ees g( fis g) bes cis,( a32 b cis16) e g, bes32( a g16) f32( e
     
     % 32
-    f16) a32( g f16) e32( d a16) e' d' cis < d d, >4.
+    f16) a32( g f16) e32( d a16) e' d' cis << d4.\\d, >>
     
-    \bar ":|."
+    \bar ":|." \mark \markup { \musicglyph #"scripts.ufermata" }
     
 }
