@@ -264,7 +264,7 @@
     a16 f'' e d cis8 a e' g,
     
     % 36
-    % last g seems an oversight _but_ it's on the manuscript so...
+    % last g seems an oversight so writing gis and skipping writing the accidental
     f16 d f a d( f bes) a gis b \once \omit Accidental gis e
     
     % 37
