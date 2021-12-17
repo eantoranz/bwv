@@ -420,7 +420,7 @@
     d,16) bes,32( c d16) f d bes d f g32( a bes c d e f g)
     
     % 71
-    cis, bes'( a g f e d \once\omit Accidental cis) bes( a g f e d cis b) a( b cis d e f g e) % 2nd cis seems to be an oversight so keeping cis but hiding accidental to match manuscript
+    cis, bes'( a g f e d c) bes( a g f e d cis b) a( b cis d e f g e) % 2nd cis seems to be an oversight so keeping cis but hiding accidental to match manuscript
     
     % 72
     % 17th pentagram from bach's manuscript starts on 3rd beat
