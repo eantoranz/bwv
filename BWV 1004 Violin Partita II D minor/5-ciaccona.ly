@@ -265,7 +265,7 @@
     
     % 36
     % last g seems an oversight _but_ it's on the manuscript so...
-    f16 d f a d( f bes) a gis b g e
+    f16 d f a d( f bes) a gis b \once \omit Accidental gis e
     
     % 37
     % 8th pentagram from bach's manuscript starts on 3rd beat
