@@ -11,11 +11,17 @@
 \time 3/4
 \key a \minor
 
+% Bach writes down _all_ accidentals. It appears to me that they are only skipped when used in contiguous notes _but_
+% I am not completely sure of that and I am not in any way to be considered an authoritative source on the subject.
+% Therefore I am just trying to match what is _written_ in the manuscript considering the accidental style I am using.
+\accidentalStyle forget
+
 \relative c' {
     
-    \partial 8 r8 
+    \partial 8 e'8
+    
     % 1
-    a'16 b c d e8 fis16 gis a8 b
+    a,16( b c d e8 fis16 gis) a8 b
     
     % 2
     c a, g4 b'
@@ -48,10 +54,10 @@
     f8 gis,16 a b8 d e16 d c b
     
     % 12
-    c b a e' c b a e' a gis a c
+    c b a e' c b a e' a gis a c,
     
     % 13 3rd pentagram on manuscript
-    dis,, c' a' a dis,, c' a' a b, a' g fis
+    dis, c' a' a dis,, c' a' a b, a' g fis
     
     % 14
     g fis e b' g fis e b' c b c e,
@@ -75,13 +81,14 @@
     %{
         First f shows up as "natural" on manuscript
     %}
-    dis8 fis16 g a8 fis e16 dis cis b
+    dis8 \once\omit Accidental fis16 g a8 fis e16 dis cis b % First f shows up as "natural" on manuscript
     
     % 21
     a fis g b e g b e, b8 dis
     
     % 22
-    e16 b c a g e' fis, dis' e,8 \bar ":..:" b'
+    e16 b c a g e' fis, dis' e,8 \bar ":..:" \break
+    b'
     
     % 23
     e,16 fis gis a b c d e f8 e16 d
@@ -96,7 +103,7 @@
     b16 c d b g4~ g16 f e d
     
     % 27
-    c b a c f g a f c e f d
+    c b a c f g a f d e f d
     
     % 28
     c b a g e' f g e c d e c
@@ -117,7 +124,7 @@
     fis d' a' a fis, d' a' d, b' d, c' d,
     
     % 34
-    g, d' b' g f? e d c b a g f
+    g, d' b' g f! e d c b a g f
     
     % 35
     e f g c e c b c g b c e
@@ -147,7 +154,7 @@
     b' a c b a g fis e b8 dis
     
     % 44 8th pentagram of manuscript starts here
-    e4~ e16 fis g a bes a bes g
+    e4~ e16 fis g a bes a \once\omit Accidental bes g % final bes does not have a flat in the manuscript
     
     % 45
     cis, d e f g f g e a, cis e g
@@ -165,7 +172,7 @@
     dis, e fis g a g a fis b, dis fis a
     
     % 50 9th pentagram from manuscript starts here
-    gis a b gis e gis d gis c, gis' b, gis'
+    gis a b gis e gis d \once\omit Accidental gis c, \once\omit Accidental gis' b, \once\omit Accidental gis' % last 3 gis do not have a sharp in the manuscript
     
     % 51
     c, e a e c e b e c e a, e'
@@ -174,7 +181,7 @@
     gis, e' b' e, gis, e' fis, e' gis, e' e, e'
     
     % 53
-    a, e' c' e, f d a d c' d, a' d,
+    a, e' c' e, f d a' d, c' d, a' d,
     
     % 54
     b' d, g, d' e c g' c, bes' c, g' c,

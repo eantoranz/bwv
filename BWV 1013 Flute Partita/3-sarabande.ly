@@ -11,6 +11,11 @@
 \time 3/4
 \key a \minor
 
+% Bach writes down _all_ accidentals. It appears to me that they are only skipped when used in contiguous notes _but_
+% I am not completely sure of that and I am not in any way to be considered an authoritative source on the subject.
+% Therefore I am just trying to match what is _written_ in the manuscript considering the accidental style I am using.
+\accidentalStyle forget
+
 \relative c' {
     
     % 1
@@ -32,7 +37,7 @@
     f'4 e\prall d
     
     % 7
-    g,8 a b d fis, g
+    g,!8 a b d fis, g
     
     % 8
     e'4 d\prall c8 e
@@ -61,7 +66,7 @@
    % 16
    c2.
    
-   \bar ":..:"
+   \bar ":..:" \break
    
    % 17
    e8 c b c a' g
@@ -85,7 +90,7 @@
    f16 a' g f e8 d cis d
    
    % 24
-   g,8 bes'16 a g8 f16 e cis'8 b16 cis
+   g,8 bes'16 a g8 f16 e cis'8 b!16 \once\omit Accidental cis % last cis does not have a sharp in the manuscript
    
    % 25
    d8 d,16 e f8 a g16 f e f
@@ -94,10 +99,10 @@
    d8 a f d f a
    
    % 27 4th pentagram from manuscript starts here
-   a c d f a g
+   b c d f a g % FIXME first note is a or b?
    
    % 28
-   f e d c gis' f
+   f e d c gis' a
    
    % 29
    gis, a b d f e
@@ -151,6 +156,6 @@
    c b a gis a8 e c b16 a
    
    % 46
-   a2. \bar ":|."
+   a2.\fermata \bar ":|."
    
 }
