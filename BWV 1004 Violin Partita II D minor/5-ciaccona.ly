@@ -264,8 +264,8 @@
     a16 f'' e d cis8 a e' g,
     
     % 36
-    % last g seems an oversight _but_ it's on the manuscript so...
-    f16 d f a d( f bes) a gis b g e
+    % last g seems an oversight so writing gis and skipping writing the accidental
+    f16 d f a d( f bes) a gis b \once \omit Accidental gis e
     
     % 37
     % 8th pentagram from bach's manuscript starts on 3rd beat
@@ -420,7 +420,7 @@
     d,16) bes,32( c d16) f d bes d f g32( a bes c d e f g)
     
     % 71
-    cis, bes'( a g f e d \once\omit Accidental cis) bes( a g f e d cis b) a( b cis d e f g e) % 2nd cis seems to be an oversight so keeping cis but hiding accidental to match manuscript
+    cis, bes'( a g f e d c) bes( a g f e d cis b) a( b cis d e f g e)
     
     % 72
     % 17th pentagram from bach's manuscript starts on 3rd beat
