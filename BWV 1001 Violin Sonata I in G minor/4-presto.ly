@@ -72,10 +72,10 @@
     bes ees' d( ees f) aes,
     
     % 17
-    ees bes ees g e g
+    ees bes ees g \once\omit Accidental ees g
     
     % 18
-    c g c ees c e
+    c g c ees c \once\omit Accidental ees
     
     % 19
     f, c f a f a
@@ -87,7 +87,7 @@
     g, d g bes g bes
     
     % 22
-    ees bes ees g e g
+    ees bes ees g \once\omit Accidental ees g
     
     % 23
     % 4th pentagram (11th in 1st page) starts here

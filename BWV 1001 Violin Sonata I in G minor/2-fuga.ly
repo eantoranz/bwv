@@ -261,7 +261,7 @@
     
     % 31
     <<
-        { f''8( g) g( e) e( f) f( d) }
+        { \once\omit Accidental fis''8( g) g( e) e( f) f( d) }
         \\
         { c!8 r b r bes! r a r }
         \\
@@ -282,7 +282,7 @@
     % 33
     % 10th pentagram starts on second beat
     <<
-        { d'8 bis'16( gis) a8 cis d( c!) c( bes) }
+        { d'8 bes'16( gis) a8 cis d( c!) c( bes) }
         \\
         { f,8 r r g' f r fis r }
         \\
@@ -365,8 +365,9 @@
     
     % 42
     % 12th pentagram starts on 2nd half of 1st beat
+    d16
     \clef treble
-    bes16 d' f a d a f d a d' c bes c a fis d
+    d' f a d a f d a d' c bes c a fis d
     
     % 43
     g,, g' bes d g d bes g d g' f ees f d b g
@@ -473,7 +474,7 @@
     <<
         { c''8 c c c c bes16 a bes8 c16 d } 
         \\
-        { ees,8 {\omit Accidental ees ees ees ees } d16 c d8 ees }
+        { ees,8 \omit Accidental ees ees ees ees \undo\omit Accidental d16 c d8 ees }
         \\
         { s8 g, g g g }
         \\
@@ -484,7 +485,7 @@
     <<
         { a''8 bes16( f) g8 a16( g) f8 g16 d ees c a f }
         \\
-        { e'8( d) d c c bes s s }
+        { \once\omit Accidental ees'8( d) d c c bes s s }
         \\
         { f8 s ees s d }
         \\
@@ -654,7 +655,7 @@
     
     % 84
     <<
-        { e''8 r d bes' g aes16 g aes fis g8 }
+        { \once\omit Accidental ees''8 r d bes' g aes16 g aes fis g8 }
         \\
         { f,8 s f d' d c16 bes c8 c }
         \\
@@ -677,7 +678,7 @@
     
     % 86
     <<
-        { f'8 g g g g8. a16 fis8. g16 }
+        { \once\omit Accidental fis'8 g g g g8. a16 fis8. g16 }
         \\
         { a,8 bes bes a bes8. c16 a8. s16 }
         \\
