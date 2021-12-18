@@ -138,9 +138,9 @@
     <<
         { ees'16 aes'( g8) des8 ees,32( g bes des) aes,16 c' aes' g32( f) ees8( d16.) \trill ees32 }
         \\
-        { s2 s8 c s f, }
+        { s2 s8 c f, }
         \\
-        { s2 s8 f s bes, }
+        { s2 s8 f bes, }
     >>
     
     % 13
