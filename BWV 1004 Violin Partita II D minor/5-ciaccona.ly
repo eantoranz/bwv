@@ -19,6 +19,9 @@
     % Therefore I am just trying to match what is _written_ in the manuscript considering the accidental style I am using.
     \accidentalStyle forget
     
+    % do not display bar numbers
+    \override Score.BarNumber.break-visibility = ##(#f #f #f)
+
     \partial 2
     <<
         { a'4. a8 }
