@@ -73,7 +73,7 @@
     
     % 5
     <<
-        { a'16( bes'32 a64 g f16.\trill e32) f8 a, f'16( d ees8) bes'16( g) g( ees!) }
+        { a'16( bes'32 a64 g f16.\trill e32) f8 a, f'16( d ees8) bes'16( g) g( ees) }
         \\
         { e,8 s8 r d bes'16 s r8 r bes16( g) }
         \\
@@ -82,7 +82,7 @@
     
     % 6
     <<
-        { e'16( cis) a'8 f,16. a'32( g f e d) e,16( d' g) e d( cis!) a( g') }
+        { \once\omit Accidental ees'16( cis) a'8 f,16. a'32( g f e d) e,16( d' g) e d( cis!) a( g') }
         \\
         {g,8 }
     >>
@@ -107,7 +107,7 @@
     <<
         { s2. fis''8 }
         \\
-        { \stemUp d4~ d32 d( c bes a64 bes a bes bes32\trill a64 bes) c16 ees32( d) ees8~ \stemDown ees32 e( d c bes16 c32 a) }
+        { \stemUp d4~ d32 d( c bes a64 bes a bes bes32\trill a64 bes) c16 ees32( d) ees8~ \stemDown ees32 \once\omit Accidental ees( d c bes16 c32 a) }
         \\
         { d,4 s fis8 }
         \\
@@ -127,7 +127,7 @@
     
     % 11
     <<
-        { b'16( d) d( c) ees( d) d( ees!) \grace e16 d16. bes32( c d ees! f64 g) aes16( bes, d, aes''!) }
+        { b'16( d) d( c) ees( d) d( ees!) \once\omit Accidental \grace ees16 d16. bes32( c d ees! f64 g) aes16( bes, d, aes''!) }
         \\
         { d,,8 ees f g f }
         \\
@@ -145,7 +145,7 @@
     
     % 13
     <<
-        e'4\fermata
+        \once\omit Accidental ees'4\fermata
         \\
         ges,
         \\
@@ -207,7 +207,7 @@
     
     % 19
     <<
-        { f'32( g a fis) d8 bes,16. d'32( c bes a bes64 g) a,16( g' c) a g( fis d) c' }
+        { \once\omit Accidental fis'32( g a fis) d8 bes,16. d'32( c bes a bes64 g) a,16( g' c) a g( fis d) c' }
         \\
         { a16 }
     >>
