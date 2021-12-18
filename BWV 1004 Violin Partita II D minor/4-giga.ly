@@ -14,6 +14,11 @@
     \time 12/8
     \key d \minor
     
+    % Bach writes down _all_ accidentals. It appears to me that they are only skipped when used in contiguous notes _but_
+    % I am not completely sure of that and I am not in any way to be considered an authoritative source on the subject.
+    % Therefore I am just trying to match what is _written_ in the manuscript considering the accidental style I am using.
+    \accidentalStyle forget
+    
     \partial 8
     
     a'8
@@ -80,13 +85,13 @@
     c( d e) c a' c, b( c d) b gis' b, c( d e) c a' c, d( e f) d b' d,
     
     % 19
-    c( d e) b c a b( c d) a b gis a a, cis e g8~ g16 e cis a cis e
+    c( d e) b c a b( c d) a b gis a a, cis e g8~ g16 e cis a \once\omit Accidental cis e % last c seems to be an oversight, so keeping a cis, but hiding accidental, to match manuscript
     
     % 20
     % 9th pentagram from bach's manuscript starts on 2nd beat
     f d f a d cis d a d f a gis a e cis a e cis a4
     
-    \bar ":..:"
+    \bar ":..:" \break
     
     e''8
     
@@ -101,7 +106,7 @@
     a c( bes a g fis) ees' d c bes a g fis a( g fis e d) a'' g fis e d c
     
     % 24
-    bes d( c bes a g) c' bes a g fis e d( e fis) a g f ees d c bes a g
+    bes d( c bes a g) c' bes a g fis e d( e fis) a g f! ees d c bes a g
     
     % 25
     % 11th pentagram from bach's manuscript starts on 2nd beat
@@ -112,7 +117,7 @@
     
     % 27
     % 12th pentagram from bach's manuscript starts on 3rd beat
-    c,,( ees g) bes c ees f,( ees f) ees' f, ees' bes,( d f) a bes d ees,( d ees) d' ees, d'
+    c,,( ees g) bes c ees f,( ees f) ees' f, \once\omit Accidental ees' bes,( d f) a bes d ees,( d ees) d' ees, d' % 5th ees does not have a flat written in the manuscript but it's probably an oversight so keeping ees and hiding the accidental to match manuscript
     
     % 28
     a,( c ees) g a c d,( c d) c' d, c' g,( bes d) fis g bes d,( fis g) bes d g
@@ -126,10 +131,10 @@
     
     % 31
     % 14th pentagram from bach's manuscript starts on 3rd beat
-    e( f g) e bes e c,( e g) bes a g a( bes c) a f a bes,( d f) a f d
+    e!( f g) e bes e c,( e g) bes a g a( bes c) a f a bes,( d f) a f d
     
     % 32
-    cis'( d e) cis g cis a,( cis e) g f e f d f a d cis d a d f a c,
+    cis'( d e) cis g \once\omit Accidental cis a,( cis e) g f e f d f a d cis d a d f a c, % 3rd cis does not have a sharp in the manuscript but it's probably an oversight so keeping cis and hiding the accidental to match manuscript
     
     % 33
     % 15th pentagram from bach's manuscript starts on 4th beat
@@ -143,7 +148,7 @@
     bes,( f' d') f e cis a,( f' d') f e cis g,( f' d') f e d bes' a( g f e d)
     
     % 36
-    cis e f g a e d( cis b) a e'( g,) f( g a) f d' f, e( f g) e c' e,
+    cis e f g a e d( cis b a) e'( g,) f( g a) f d' f, e( f g) e c' e,
     
     % 37
     d( e f) d bes' d, c( d e) c a' c,
@@ -160,6 +165,6 @@
     % 18th pentagram from bach's manuscript starts here
     d d, f a d e f d f a d cis d a f d a f d4
     
-    \bar ":|."
+    \bar ":|." \mark \markup { \musicglyph #"scripts.ufermata" }
     
 }

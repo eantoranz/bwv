@@ -14,6 +14,11 @@
     \time 3/4
     \key d \minor
     
+    % Bach writes down _all_ accidentals. It appears to me that they are only skipped when used in contiguous notes _but_
+    % I am not completely sure of that and I am not in any way to be considered an authoritative source on the subject.
+    % Therefore I am just trying to match what is _written_ in the manuscript considering the accidental style I am using.
+    \accidentalStyle forget
+    
     \partial 2
     <<
         { a'4. a8 }
@@ -89,7 +94,7 @@
     
     % 10
     <<
-        { < a' e' >8 s d8. f16 e8. d16 }
+        { < a' e' >8 r d8. f16 e8. d16 }
         \\
         { f,8. e16 f8. a16 g8. f16 }
         \\
@@ -126,7 +131,7 @@
     
     % 14
     <<
-        { < a' e' >8 s d8. f16 e8. cis16 }
+        { < a' e' >8 r d8. f16 e8. cis16 }
         \\
         { f,8. e16 f8. a16 g8. e16 }
         \\
@@ -144,7 +149,7 @@
     <<
         { d'8. e16 f8. g32 a bes8. f16 }
         \\
-        { d,8 s s4 s8. d'16 }
+        { d,8 s s4 r8 r16 d' }
         \\
         { d,8 }
     >>
@@ -154,14 +159,14 @@
     <<
         { e'8. bes'16 a8. g16 a8. fis16 }
         \\
-        { cis4 c r8. c16 }
+        { cis4 c! r8 r16 c }
     >>
     
     % 18
     <<
         { g'8. f16 e8. d32 cis d8. e16 }
         \\
-        { b4 bes r8. bes16 }
+        { b4 bes! r8 r16 bes }
     >>
     
     % 19
@@ -175,14 +180,14 @@
     <<
         { f8. d32 e f8. g32 a bes8. f16 }
         \\
-        { d8. s16 s4 r8. d16 }
+        { d8. s16 s4 r8 r16 d }
     >>
     
     % 21
     <<
         { e8. bes'16 a8. g16 a8. fis16 }
         \\
-        { cis4 c r8. c16 }
+        { cis4 c! r8 r16 c }
     >>
     
     % 22
@@ -190,14 +195,14 @@
     <<
         { g'8. f16 e8. d32 cis d8. e16 }
         \\
-        { b4 bes r8. < d gis, >16 }
+        { b4 bes! r8 r16 < d gis, > }
     >>
     
     % 23
     <<
         { f8. g16 d8. cis32 b cis8. g16 }
         \\
-        { < a d >4 < a e' > r8. a,16 }
+        { < a d >4 < a e' > r8 r16 a, }
     >>
     
     % 24
@@ -250,43 +255,43 @@
     d8 f bes a gis d,
     
     % 33
-    cis e' a g fis c,
+    cis e' a g fis c,!
     
     % 34
-    b d' g f e bes,
+    b d' g f e bes,!
     
     % 35
     a16 f'' e d cis8 a e' g,
     
     % 36
-    % last g seems an oversight _but_ it's on the manuscript so...
-    f16 d f a d( f bes) a gis b g e
+    % last g seems an oversight so writing gis and skipping writing the accidental
+    f16 d f a d( f bes) a gis b \once \omit Accidental gis e
     
     % 37
     % 8th pentagram from bach's manuscript starts on 3rd beat
-    cis( e a) g fis a fis c a fis d c
+    cis( e a) g fis a fis c! a fis d c
     
     % 38
-    b( d g) fis g ees'( d cis) bes'( a gis) a
+    b( d g) fis g ees'( d cis) bes'!( a gis) a
     
     % 39
-    f e d c bes( a gis) a cis, g' f e
+    f e d c bes!( a gis) a cis, g' f e
     
     % 40
     f d e f g a b cis d f, e d
     
     % 41
     % 9th pentagram from bach's manuscript starts on 3rd beat
-    a( e' d') cis d,( fis a) c c bes c a
+    a( e' d') cis d,( fis a) c! c bes c a
     
     % 42
     bes g f ees d c bes a g( g' ees') d
     
     % 43
-    cis e a, g f d' e, d a( e' d') cis
+    cis e! a, g f d' e, d a( e' d') cis
     
     % 44
-    g'( e f) cis d( c bes a g f e) d
+    g'( e f) cis d( c! bes a g f e) d
     
     % 45
     cis bes' a g fis d a' d, c bes c a
@@ -296,7 +301,7 @@
     bes( g a bes c d e fis g a bes) a
     
     % 47
-    gis a e f g cis,( d) gis,( a) f' e cis
+    gis a e f g! cis,( d) gis,( a) f' e cis
     
     % 48
     d d'( a g f e d c bes) d' g, f
@@ -309,7 +314,7 @@
     d bes'( f ees d c bes a g) bes' e, d
     
     % 51
-    cis a cis e a e a cis e g, a e
+    cis a \once\omit Accidental cis e a e a cis e g, a e
     
     % 52
     f d f a d a d f bes, g'( a bes)
@@ -445,24 +450,23 @@
     
     % 80
     % 19th pentagram from bach's manuscript starts here
-    d,( bes'') bes( gis) gis( f) f( d) d b gis e
+    d,( bes'') \once\omit Accidental bes( gis) \once\omit Accidental gis( f!) f( d) d b gis e
     
     % 81
-    cis( a'') a( fis) fis( ees) ees( c) c a fis d
+    cis( a'') a( fis) \once\omit Accidental fis( ees) \once\omit Accidental ees( c!) c a fis d
     
     % 82
-    b( g'') g( ees) ees( cis) cis( bes) bes g e cis
+    b( g'') g( ees) \once\omit Accidental ees( cis) \once\omit Accidental cis( bes!) bes g e cis
     
     % 83
-    a( cis) cis( e) e( g32 f) g16( bes32 a) bes16( cis32 d e16) g,
+    a( cis) \once\omit Accidental cis( e) e( g32 f) g16( bes32 a) bes16( cis32 d e16) g,
     
     % 84
     % 20th pentagram from bach's manuscript starts here
     f32( a b cis) d( cis b a) f'( e d cis) d( e f g) a( g f e) bes'( a g f)
     
     % 85
-    % Changed to G on 1st? seems like it starts midway of the 2nd beat
-    c( e fis gis) a( gis fis e) c'( b a gis) a( b c d) e( d c b) f'( e d cis)
+    c( e fis gis) a( gis fis e) c'( b a gis) \clef french a( b c d) e( d c b) f'( e d cis)
     
     % 86
     % 21st pentagram from bach's manuscript starts on 2nd beat
@@ -472,6 +476,7 @@
     g( a bes a) g( bes a g) bes( a g bes) a( g bes a) g( f e d cis b a g)
     
     % 88
+    \clef treble
     f( d) a''( d,,) f( d) a'' d,, < d f a' >2-"arpeggio"
     
     % 89
@@ -673,26 +678,26 @@
         \\
         { e,2. }
         \\
-        { gis,4 a g }
+        { gis,4 a g! }
     >>
     
     % 114
     <<
-        { c'4 b2 }
+        { c'!4 b2 }
         \\
         { d,2. }
         \\
-        { fis,4 g f }
+        { fis,4 g f! }
     >>
     
     % 115
-    < bes' cis, e,>4 < a d, f, > < g cis, e, >
+    < bes'! cis, e,>4 < a d, f, > < g cis, e, >
     
     % 116
-    < fis d d, > < f c a a, > < f d g, b, >
+    < fis d d, > < f! c a a, > < f d g, b, >
     
     % 117
-    < e c g c, > < ees g, g, > < ees f, a, >
+    < e c g c, > < ees g, g, > \once\omit Accidental < ees f, a, >
     
     % 118
     % 25th pentagram from bach's manuscript starts here (new page)
@@ -740,10 +745,10 @@
     < bes' d, g, g, >4 < a d, f, a, > < g cis, e, a, >
     
     % 128
-    < g d a d, > < fis d a d, > c,8 f'
+    < g d a d, > < fis d a d, > c,8 f'!
     
     % 129
-    < f d g, b, >4 < e c g c, > bes,8 ees'
+    < f d g, b, >4 < e c g c, > bes,!8 ees'
     
     % 130
     < ees f, a, >4 < d f, bes, > a,8 d'
@@ -887,7 +892,7 @@
     <<
         { d16 cis b a gis( b d) fis e8 e }
         \\
-        { d,8 s8 s4 s8 < d gis b > }
+        { d,8 s8 r4 r8 < d gis b > }
     >>
     
     % 149
@@ -1030,7 +1035,7 @@
     % 173
     % 35th pentagram from bach's manuscript starts from 3rd beat
     <<
-        { d'16 r8. r16 d' d d d c c c }
+        { d'16 r8. r16 d' d d d c \once\omit Accidental c \once\omit Accidental c }
         \\
         { fis,,16 s4 d'16 d d e e fis fis }
         \\
@@ -1077,7 +1082,7 @@
     
     % 178
     <<
-        { e'8( d) c4. c8 }
+        { e'8( d) c4. \once\omit Accidental c8 }
         \\
         { b4 b8 a g fis }
     >>
@@ -1087,7 +1092,7 @@
     <<
         { s4 r8 b' a g }
         \\
-        { c,8 b cis a b cis }
+        { c,8 b cis! a b cis }
         \\
         { g4 s8 g fis e }
     >>
@@ -1135,7 +1140,7 @@
     <<
         { < a fis>4 < a fis >4. < a fis >8 }
         \\
-        { c,4 c2 }
+        { c,4 \once\omit Accidental c2 }
     >>
     
     % 186
@@ -1160,10 +1165,10 @@
     < d d' >4 < d a' d fis >4. < d a' d fis >8
     
     % 189
-    < c d a' fis' >4 < c d a' fis' >4. < c d a' fis' >8
+    < c d a' fis' >4 \once\omit Accidental < c d a' fis' >4. \once\omit Accidental < c d a' fis' >8
     
     % 190
-    < b g' d' fis >4 < cis g' a e' >4. < cis g' a e' >8
+    < b g' d' fis >4 < cis! g' a e' >4. < cis g' a e' >8
     
     % 191
     <<
@@ -1186,6 +1191,7 @@
     < e d' g >4 < fis d' a' >4. < fis d' a' >8
     
     % 194
+    \clef french
     < g d' b' >4 < gis e' b' >4. < gis e' b' >8
     
     % 195
@@ -1209,10 +1215,11 @@
         \\
         { g8 d d4. d8 }
         \\
-        { g,4 gis4. gis8 }
+        { g,4 gis4. \once\omit Accidental gis8 }
     >>
     
     % 199
+    \clef treble
     <<
         { e'8 fis g b a g }
         \\
@@ -1298,9 +1305,9 @@
     
     % 211
     <<
-        { g'8. e'16 cis( a bes) g cis,8 a' }
+        { g'8. e'16 cis( a bes!) g cis,8 a' }
         \\
-        { a,8. s16 s4. < cis e >8 }
+        { a,8. s16 s4. \once\omit Accidental < cis e >8 }
     >>
     
     % 212
@@ -1355,7 +1362,7 @@
     d bes f( ees d) f bes,( a g) cis e bes'
     
     % 223
-    % 43rd pentagram from bach's manuscript starts here
+    % 43rd pentagram from bach's manuscript starts here 
     a( f d) bes' g e cis e a, g' f e
     
     % 224
@@ -1404,14 +1411,14 @@
     <<
         { f16( a) s a s[ a s a] s[ a s a] }
         \\
-        { d,[ s a'(] \tweak Stem.transparent ##t a\noBeam) gis([ \tweak Stem.transparent ##t a) g]( \tweak Stem.transparent ##t a) fis([ \tweak Stem.transparent ##t a) f]( \tweak Stem.transparent ##t a) }
+        { d,[ s a'(] \tweak Stem.transparent ##t a\noBeam) gis([ \tweak Stem.transparent ##t a) g!]( \tweak Stem.transparent ##t a) fis([ \tweak Stem.transparent ##t a) f!]( \tweak Stem.transparent ##t a) }
     >>
     
     % 233
     <<
         { e16( a) s a s[ a s a] s[ a s a] }
         \\
-        { c,[ s g'(] \tweak Stem.transparent ##t a\noBeam) fis([ \tweak Stem.transparent ##t a) f]( \tweak Stem.transparent ##t a) e([ \tweak Stem.transparent ##t a) ees]( \tweak Stem.transparent ##t a) }
+        { c,[ s g'(] \tweak Stem.transparent ##t a\noBeam) fis([ \tweak Stem.transparent ##t a) f!]( \tweak Stem.transparent ##t a) e([ \tweak Stem.transparent ##t a) ees]( \tweak Stem.transparent ##t a) }
     >>
     
     % 234
@@ -1465,7 +1472,7 @@
         \\
         { g([ \tweak Stem.transparent ##t a\noBeam) e(] \tweak Stem.transparent ##t a\noBeam) a([ \tweak Stem.transparent ##t a) g]( \tweak Stem.transparent ##t a) f([ \tweak Stem.transparent ##t a) e]( \tweak Stem.transparent ##t a) }
         \\
-        { cis,[ s cis s]  cis[ s a s]  b[ s cis s] }
+        { cis,[ s \once\omit Accidental cis s] cis[ s a s]  b[ s cis s] }
     >>
     
     % 240
@@ -1483,7 +1490,7 @@
     \tuplet 3/2 8 { d,,( bes' a') bes,,( d f) d( f bes) f( bes d) g,( bes ees) ees,( bes' g') }
 
     % 243
-    \tuplet 3/2 8 { e,( cis' bes') f,( d' a') g,( e' g) gis,( d' f) a,( d e) a,( cis e) }
+    \tuplet 3/2 8 { e,!( cis' bes') f,( d' a') g,( e' g) gis,( d' f) a,( d e) a,( cis e) }
     
     % 244
     \tuplet 3/2 8 { d, a''( g f) f( e d) d( c bes) bes( a g) bes( c d e f) }
@@ -1567,6 +1574,6 @@
         { d }
     >>
     
-    \bar "|."
+    \bar "|." \mark \markup { \musicglyph #"scripts.ufermata" }
     
 }
