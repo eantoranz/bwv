@@ -11,6 +11,11 @@
 \time 6/8
 \key b \minor
 
+% Bach writes down _all_ accidentals. It appears to me that they are only skipped when used in contiguous notes _but_
+% I am not completely sure of that and I am not in any way to be considered an authoritative source on the subject.
+% Therefore I am just trying to match what is _written_ in the manuscript considering the accidental style I am using.
+\accidentalStyle forget
+
 \relative c' {
     
     % 1
@@ -49,18 +54,18 @@
     % 10
     % ais on 3rd beat of 1st beat (piano is playing ais as well)
     % @TODO Appoggiatura to land on a starts on e or on fis?
-    ais,32 g' fis e \appoggiatura e16 cis'16. b32 \appoggiatura fis16 a32( g fis e)
+    ais,32 g' fis e \appoggiatura e16 cis'16. b32 ais32( g fis e)
     d cis d cis b4
     
     % 11
-    g'32( a g fis) g( fis eis fis) fis16 d' d32 c b c c b ais b ais16 g'
+    g'32( a g fis) g( fis eis fis) fis16 d' d32 c b c \once\omit Accidental c b ais b ais16 g'
     
     % 12
     fis32 d cis b d8 cis16.\trill b32 b4 r8
     
     % 13
     % last g has no alteration because it was not written on manuscript so it's "natural"
-    gis16 gis8 gis gis16~ gis32 b a gis a g fis e d cis b a
+    gis16 \omit Accidental gis8 gis gis16~ gis32 \undo\omit Accidental b a gis a \once\omit Accidental gis fis e d cis b a
     
     % 14
     d e fis16~ fis32 g a16~ a32 c b a d b c a g4

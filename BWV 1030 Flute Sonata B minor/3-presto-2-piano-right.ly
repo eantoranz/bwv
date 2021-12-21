@@ -11,6 +11,11 @@
 \time 12/16
 \key b \minor
     
+% Bach writes down _all_ accidentals. It appears to me that they are only skipped when used in contiguous notes _but_
+% I am not completely sure of that and I am not in any way to be considered an authoritative source on the subject.
+% Therefore I am just trying to match what is _written_ in the manuscript considering the accidental style I am using.
+\accidentalStyle forget
+
 \relative c' {
     
     \partial 16 r16
@@ -113,7 +118,7 @@
     fis eis fis b a gis fis eis fis a gis fis
     
     % 31
-    gis b d cis b a gis fis eis d cis b
+    gis b d cis b a gis fis eis d! cis b
     
     % 32
     % 5th system starts here
@@ -128,7 +133,7 @@
     fis16
     
     % 33
-    ais cis g~ g fis eis fis cis' fis,~ fis e dis
+    ais cis g!~ g fis eis fis cis' fis,~ fis e dis
     
     % 34
     e cis' e,~ e d cis d e fis b, d fis
@@ -182,23 +187,23 @@
     
     % 47
     % 3rd system starts on 3rd beat
-    d8 c16 c8 b16 b8\trill a16 a8\trill g16
+    d8 c16 \once\omit Accidental c8 b16 b8\trill a16 a8\trill g16
     
     % 48
-    g8\trill fis16 fis8\trill e16 e8. r8 cis16
+    g8\trill fis16 fis8\trill e16 e8. r16 r cis
     
     % 49
     a'8.~ a16 g fis g8.~ g16 fis e
     
     % 50
-    fis8.~ fis16 e dis e8.~ e16 d cis
+    fis8.~ fis16 e dis e8.~ e16 d! cis
     
     % 51
     % 4th system starts here
-    ais' cis g~ g fis eis fis cis' fis,~ fis e dis
+    ais' cis g!~ g fis eis fis cis' fis,~ fis e dis
     
     % 52
-    e cis' e,~ e d cis d fis b d8.~
+    e cis' e,~ e d! cis d fis b d8.~
     
     % 53
     d16 g, b e,8.~ e16 cis e a8.~
@@ -211,7 +216,7 @@
     g16 e g cis8.~ cis16 ais cis fis8 r16
     
     % 56
-    r8. r8 b,,16 ais fis ais cis eis fis
+    r8. r16 r b,, ais fis \once\omit Accidental ais cis eis fis
     
     % 57
     b, gis b d eis fis cis8 cis'16 ais8 e16
@@ -244,6 +249,6 @@
         { s8. b'8 }
     >>
     
-    \bar ":|."
+    \bar ":|." \mark \markup { \musicglyph #"scripts.ufermata" }
     
 }

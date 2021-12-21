@@ -12,6 +12,11 @@
 \time 2/2
 \key b \minor
 
+% Bach writes down _all_ accidentals. It appears to me that they are only skipped when used in contiguous notes _but_
+% I am not completely sure of that and I am not in any way to be considered an authoritative source on the subject.
+% Therefore I am just trying to match what is _written_ in the manuscript considering the accidental style I am using.
+\accidentalStyle forget
+
 \relative c' {
     
     % 1
@@ -160,7 +165,7 @@
     
     % 47
     % 4th system starts on 3rd beat
-    g fis e2 fis8 g
+    g fis e4~ e fis8 g
     
     % 48
     a g fis2 g8 a
@@ -207,7 +212,7 @@
     
     % 62
     % 6th system starts here
-    c2 r4 cis
+    c2 r4 cis!
     
     % 63
     d8 cis b cis d e fis d
