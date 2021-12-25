@@ -11,6 +11,11 @@
 \time 12/16
 \key b \minor
 
+% Bach writes down _all_ accidentals. It appears to me that they are only skipped when used in contiguous notes _but_
+% I am not completely sure of that and I am not in any way to be considered an authoritative source on the subject.
+% Therefore I am just trying to match what is _written_ in the manuscript considering the accidental style I am using.
+\accidentalStyle forget
+
 \relative c' {
     
     \partial 16 fis16
@@ -74,7 +79,7 @@
     d16 b gis fis eis fis cis'8 gis16 \appoggiatura fis8 eis8 r16
     
     % 19
-    r8. r8 b16 a( gis fis) d'( cis b)
+    r8. r16 r b a( gis fis) d'( cis b)
     
     % 20
     % 2nd system starts on 2nd beat
@@ -84,7 +89,7 @@
     r2.
     
     % 22
-    r4. r8. r8 cis'16
+    r4. r8. r16 r cis'
     
     % 23
     fis a gis~ gis d cis~ cis b' a~ a e dis~
@@ -100,7 +105,7 @@
     gis b d b gis fis eis gis cis b a gis
     
     % 27
-    \appoggiatura gis8 a8. r8 fis16 fis b d ais b fis
+    \once\omit Accidental \appoggiatura gis8 a8. r8 fis16 fis b d ais b fis
     
     % 28
     % 4th system starts here
@@ -118,14 +123,14 @@
     % 32
     % 5th system starts here
     gis16 eis fis a, b gis fis8.~ fis8
-    \bar ":..:"
+    \bar ":..:" \break
     cis''16
     
     % 33
     e,8.~ e16 d cis d8.~ d16 cis b
     
     % 34
-    cis8.~ cis16 b ais b8. r8 b'16
+    cis8.~ cis16 b ais b8. r16 r b'
     
     % 35
     % 6th system starts on 3rd beat
@@ -151,30 +156,30 @@
     b8 a16 a8\trill gis16 e' c a g a fis
     
     % 42
-    b cis, d a' cis, d g8. r
+    b cis,! d a' cis, d g8. r
     
     % 43
     % 2nd system starts on 3rd beat
-    r2.
+    r4. r
     
     % 44
-    r4. r8. r8 d16
+    r r8. r16 r d
     
     % 45
     g b a~ a e d~ d c' b~ b f e~
     
     % 46
-    e d' c~ c g fis~ fis e' d r fis, g
+    e d' c~ c g fis!~ fis e' d r fis, g
     
     % 47
     % 3rd system starts on 3rd beat
     e' fis, g d' fis, g c dis, e b' dis, e
     
     % 48
-    ais dis, e b' dis, e cis' dis, e g fis e
+    ais dis, e b' dis, e cis'! dis, e g fis e
     
     % 49
-    dis fis c~ c b ais b fis' b,~ b a gis
+    dis fis c~ c b ais b fis' b,~ b a! gis
     
     % 50
     a fis' a,~ a g fis g b e g fis e
@@ -184,7 +189,7 @@
     e'8.~ e16 d cis d8.~ d16 cis b
     
     % 52
-    cis8.~ cis16 b ais b8.~ b16 b, a'
+    cis8.~ cis16 b ais b8.~ b16 b, a'!
     
     % 53
     g b e, d cis b cis a cis e fis g
@@ -207,7 +212,7 @@
     
     % 59
     % 6th system starts here
-    eis d' cis~ cis fis, eis~ eis b' ais~ ais e d
+    eis d' cis~ cis fis, eis~ eis b' ais~ ais e! d
     
     % 60
     cis8 r16 d8 r16 cis8 r16 a'16 c, b~
@@ -219,11 +224,11 @@
     b ais b e d cis b ais b d cis b
     
     % 63
-    cis e a fis e d cis b ais g' fis e
+    cis e g fis e d cis b ais g' fis e
     
     % 64
     d8 fis'16 fis, b ais b8.~ b8
     
-    \bar ":|."
+    \bar ":|." \mark \markup { \musicglyph #"scripts.ufermata" }
     
 }

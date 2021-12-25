@@ -11,9 +11,15 @@
 \time 6/8
 \key b \minor
 
+% Bach writes down _all_ accidentals. It appears to me that they are only skipped when used in contiguous notes _but_
+% I am not completely sure of that and I am not in any way to be considered an authoritative source on the subject.
+% Therefore I am just trying to match what is _written_ in the manuscript considering the accidental style I am using.
+\accidentalStyle forget
+
 \relative c' {
     
     % 1
+    % checking this hand
     <<
         { d'8 d d < d b > cis32 e d cis d cis b a }
         \\
@@ -29,16 +35,16 @@
     
     % 3 2nd system from bach's manuscript starts here
     <<
-        { < d a >8 < d c > < d c > d~ d32 dis e fis e d c? b }
+        { < d a >8 < d c > \once\omit Accidental < d c > d~ d32 dis e fis e d c b }
         \\
-        { < fis d >8 < a fis > < a fis > < c a fis > < b g > r }
+        { < fis d >8 < a fis > < a fis > \once\omit Accidental < c a fis > < b g > r }
     >>
     
     % 4
     <<
-        { r16 dis8 dis dis16 e8. d32 c? b a g fis  }
+        { r16 dis8 \omit Accidental dis dis16 \undo\omit Accidental e8. d32 c b a g fis  }
         \\
-        { < c' a >8 < b fis > < b fis > < b g > }
+        { < c' a >8 < b fis > < b fis > < b g > r r }
     >>
     
     % 5
@@ -65,7 +71,7 @@
     <<
         { fis'8 d b e b d }
         \\
-        { < d b > b fis b gis gis }
+        { < d b > b fis b gis \once\omit Accidental gis }
         \\
         { fis fis d e e e }
     >>
@@ -106,7 +112,7 @@
     <<
         { g'8. g8 fis16~ fis e8 e e16  }
         \\
-        { r16 e8. d8 d c < cis ais > }
+	{ r16 e8. d8 d c < cis! ais > }
         \\
         { r8 cis b b g < g e > }
     >>
@@ -129,16 +135,16 @@
         \\
         { b a r }
         \\
-        { gis e r }
+        { \once\omit Accidental gis e r }
     >>
     
     % 14
     <<
         { a'8 fis d < d c > g r }
         \\
-        { d d c a b32 cis d cis e d fis e }
+        { d d \omit Accidental c a b32 c d c \undo\omit Accidental e d fis e }
         \\
-        { a,8 a < fis a > fis16 d8 d16 cis b }
+        { a,8 a < fis a > fis16 d8 d16 \once\omit Accidental c b }
     >>
     
     % 15 3rd system from 8th page from Bach's manuscript starts here

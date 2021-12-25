@@ -11,6 +11,11 @@
 \time 4/4
 \key b \minor
 
+% Bach writes down _all_ accidentals. It appears to me that they are only skipped when used in contiguous notes _but_
+% I am not completely sure of that and I am not in any way to be considered an authoritative source on the subject.
+% Therefore I am just trying to match what is _written_ in the manuscript considering the accidental style I am using.
+\accidentalStyle forget
+
 \relative c' {
 
     \partial 4 r4
@@ -22,7 +27,7 @@
     b e, fis fis, b4 r8 b'
     
     % 3
-    b ais r a a gis r g
+    b ais r a! a gis r g!
 
     % 4 2nd system from bach's score starts on 3rd beat
     g fis e g fis gis ais b
@@ -61,7 +66,7 @@
     b b, a g fis4 r
     
     % 16
-    r16 b' b( ais) ais( b) b( ais) ais4 r8 fis
+    r16 b' b( ais) \once\omit Accidental ais( b) b( ais) \once\omit Accidental ais4 r8 fis
     
     % 17
     b8. cis16 b a g fis e8. dis16 e fis g e
@@ -70,7 +75,7 @@
     a8. b16 a g fis e d8. cis16 d e fis d
     
     % 19 6th system from bach's score starts here
-    g8 g, g g e e' d fis
+    g8 g, g g fis e' d fis
     
     % 20
     g e fis fis, b b, d fis
@@ -118,13 +123,13 @@
     fis b cis cis, fis4 r8 fis'
     
     % 35 2nd page 6th system from bach's score starts here
-    fis\prall eis r e e\prall dis r d
+    fis\prall eis r e! e\prall dis r d!
     
     % 36
     cis fis ais fis b e, d'32 cis b16 cis e
     
     % 37
-    ais, fis' fis b, b a gis a gis eis' eis b a gis fis e
+    ais, fis' fis b, b a! gis a gis eis' \once\omit Accidental eis b a gis fis e
     
     % 38 3rd page from bach's score starts here
     fis8 gis a eis fis gis a eis
@@ -142,7 +147,7 @@
     g fis g16 fis( e d) cis8 c \tuplet 3/2 8 { b16 ais b cis b ais }
     
     % 43
-    b fis fis eis eis( e') e( fis) g( b,) b( a) a( g) g( fis)
+    b fis fis eis \once\omit Accidental eis( e'!) e( fis) g( b,) b( a) a( g) g( fis)
     
     % 44 3rd page 3rd system from bachs score starts on 3rd beat
     fis( fis') fis( e) e( d) d( cis) cis4 r8 eis
@@ -157,13 +162,13 @@
     b ais b bes a c, d fis
     
     % 48
-    g fis g16( gis) gis a a( g) g( fis) g( fis) fis( e) 
+    g fis g16( \once\omit Accidental gis) gis a a( g!) g( fis) g( fis) fis( e) 
     
     % 49 (Q: first a is ais?.... g on 3 beat?)
-    fis( gis) gis( ais) ais( b) b( ais) b8 g e fis
+    fis( gis) \once\omit Accidental gis( ais) \once\omit Accidental ais( b) b( ais) b8 g e fis
     
     % 50 3rd page 5th system from bach's score starts on 3rd beat
-    gis16( fis) fis( eis) eis( fis) fis( eis) fis8 d b cis
+    gis16( fis) fis( eis) \once\omit Accidental eis( fis) fis( eis) fis8 d b cis
     
     % 51
     fis,16( fis') fis( e) e( d) d( cis) cis( b') b( a) a( gis) gis( fis)
@@ -208,20 +213,16 @@
     g c d d, g, a b c
     
     % 65
-    <<
-        { d' }
-        \\
-        { d, d c c b b g g }
-    >>
+    d d c \once\omit Accidental c b b g g
     
     % 66
-    c c b b a a f f
+    c \once\omit Accidental c b b a a f \once\omit Accidental f
     
     % 67 4th page 5th system from bach's score starts here
     b b e e a, a d d
     
     % 68
-    g, g c c fis, fis b b
+    g, g c \once\omit Accidental c fis, fis b b
     
     % 69
     e fis g dis e fis g dis
@@ -236,10 +237,10 @@
     g' fis e d c b a g
     
     % 73
-    f' e dis cis b a g fis
+    fis' e dis cis! b a g fis
     
     % 74
-    e b'16 cis dis8 b b, dis'16 cis dis8 b
+    e b'16 cis! dis8 b b, dis'16 cis! dis8 b
     
     % 75 5th page 2nd system from bach's score starts on 2nd beat
     b, dis'16 cis dis8 b e, e'16 dis e8 e,
@@ -248,13 +249,13 @@
     b r16 b'' b( a) a( g) a( g) g( fis) g( fis) fis( e)
     
     % 77
-    fis( e) e( dis) e( d) d( cis) d( c) c( b) c( b) b( a)
+    fis( e) e( dis) e( d!) d( cis) d( c) \once\omit Accidental c( b) c( b) b( a)
     
     % 78 5th page 3rd system from bach's score starts on 2nd beat
-    b( a) a( gis) a( g) g( fis) g( fis) fis( g) g fis fis eis
+    b( a) a( gis) a( g!) g( fis) g( fis) fis( g) g fis fis eis
     
     % 79
-    eis2 fis4 r8 b
+    \once\omit Accidental eis2 fis4 r8 b
     
     % 80
     b' cis d ais b cis d ais
@@ -269,7 +270,7 @@
     fis b, dis b e a16 g fis e fis a
     
     % 84
-    dis, b' b e, e d cis d cis ais' ais e d cis b ais
+    dis, b' b e, e d cis d! cis ais' \once\omit Accidental ais e d cis b ais
     
     % 85 5th page 5th system from bach's score starts on 3rd beat
     b8 cis d ais b cis d ais
@@ -288,7 +289,7 @@
     
     % 90
     % Bach's manuscript has no articulations on 2nd beat
-    e( b') b( ais) ais a a b c( e,) e( d) d c c b
+    e( b') b( ais) \once\omit Accidental ais a! a b c( e,) e( d) d c \once\omit Accidental c b
     
     % 91
     b( b') b( a) a( g) g( fis) fis4 r8 ais
@@ -304,13 +305,13 @@
     
     % 95 6th page 2nd system from bach's score starts here
     % Bach's manuscript doesn't have articulations on 3rd beat
-    c b c cis d16 c c b c( b) b( a)
+    c b c cis! d16 c \once\omit Accidental c b c( b) b( a)
     
     % 96
     b( a) a( g) a( e') e( dis) e8 c a b
     
     % 97
-    cis16( b') b( ais) ais( cis) cis( ais) b8 g e fis
+    cis!16( b') b( ais) \once\omit Accidental ais( cis) cis( ais) b8 g e fis
     
     % 98 6th page 3rd system from bach's score starts on 3rd beat
     b16 b, b( a) a( g) g( fis) fis( e') e( d) d( cis) cis( b)
@@ -358,7 +359,7 @@
     g e fis fis, g16 g' g fis fis e e fis
     
     % 113
-    fis8 r16 fis' fis( e) e( d) e( d) d( cis) d( c) c( b)
+    fis8 r16 fis' fis( e) e( d) e( d) d( cis) d( c) \once\omit Accidental c( b)
     
     % 114
     c( b) b( a) b( a) a( g) a( g) g( fis) g( fis) fis( e)
