@@ -362,19 +362,39 @@
     ees g, aes
     
     % 90
-    bes aes bes
+    <<
+	    { g'8 aes f }
+	    \\
+	    { bes,8 aes bes }
+    >>
     
     % 91
-    ees,4.
+    <<
+	    { r16 ees d ees f ees }
+	    \\
+	    { ees,4. }
+    >>
     
     % 92
-    r8 ees f
+    <<
+	    { g'16 ees d ees aes ees }
+	    \\
+	    { r8 ees, f }
+    >>
     
     % 93
-    g4 r8
+    <<
+	    { bes'16 ees, d ees c' ees, }
+	    \\
+	    { g,4 r8 }
+    >>
     
     % 94
-    r ees g
+    <<
+	    { des''16 bes aes g f ees }
+	    \\
+	    { r8 ees, g }
+    >>
     
     % 95
     <<

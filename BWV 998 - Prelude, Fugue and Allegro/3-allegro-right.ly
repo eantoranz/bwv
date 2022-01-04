@@ -302,22 +302,22 @@
     g ees' d c bes aes
     
     % 90
-    g8 aes f
+    s4.
     
     % 91
-    r16 ees d ees f ees
+    s
     
     % 92
-    g ees d ees aes ees
+    s
     
     % 93
-    bes' ees, d ees c' ees,
+    s
     
     % 94
-    des' bes aes g f ees
+    s
     
     % 95
-    c'8 f d
+    c8 f d
     
     % 96
     ees4 r8
