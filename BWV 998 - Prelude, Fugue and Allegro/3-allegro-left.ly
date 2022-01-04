@@ -324,6 +324,77 @@
     % 77
     g r bes,
     
+    % 78
+    % written notes start here
+    c r g
+    
+    % 79
+    aes f ees
+    
+    % 80
+    bes' c d
+    
+    % 81
+    ees d c
+    
+    % 82
+    d c bes
+    
+    % 83
+    c bes aes
+    
+    % 84
+    bes aes g
+    
+    % 85
+    aes aes aes
+    
+    % 86
+    a \omit Accidental a a \undo\omit Accidental
+    
+    % 87
+    bes bes bes
+    
+    % 88
+    d d d
+    
+    % 89
+    ees g, aes
+    
+    % 90
+    bes aes bes
+    
+    % 91
+    ees,4.
+    
+    % 92
+    r8 ees f
+    
+    % 93
+    g4 r8
+    
+    % 94
+    r ees g
+    
+    % 95
+    <<
+        { s8 aes' f }
+        \\
+        { aes,8 f bes }
+    >>
+    
+    % 96
+    <<
+        { g'4 r8 }
+        \\
+        { ees,4 r8 }
+    >>
+    
+    \bar ":."
+    
+    
+    
+    
     
     \bar "|."
     

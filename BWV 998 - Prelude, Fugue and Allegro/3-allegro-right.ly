@@ -264,8 +264,64 @@
     % 77
     bes aes' g bes f bes
     
+    % 78
+    % written notes start here
+    ees, g aes ees bes' ees,
     
+    % 79
+    c' bes aes d g, ees'
     
+    % 80
+    f, ees' d c bes aes
     
+    % 81
+    g bes c bes aes g
+    
+    % 82
+    f bes c bes aes f
+    
+    % 83
+    ees bes' c bes f ees
+    
+    % 84
+    d bes' c bes ees, des
+    
+    % 85
+    c g' f g aes g
+    
+    % 86
+    f c' ees, d ees c
+    
+    % 87
+    d bes aes bes c bes
+    
+    % 88
+    aes f' aes, g aes f
+    
+    % 89
+    g ees' d c bes aes
+    
+    % 90
+    g8 aes f
+    
+    % 91
+    r16 ees d ees f ees
+    
+    % 92
+    g ees d ees aes ees
+    
+    % 93
+    bes' ees, d ees c' ees,
+    
+    % 94
+    des' bes aes g f ees
+    
+    % 95
+    c'8 f d
+    
+    % 96
+    ees4 r8
+    
+    \bar ":."
     
 }
